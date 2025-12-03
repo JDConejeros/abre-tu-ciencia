@@ -18,7 +18,6 @@
   --footer-h: 72px;   /* alto mínimo del footer */
   --body-gutter: clamp(16px, 4vw, 56px);
   --body-max: 1200px; /* ancho de lectura opcional en desktop */
-  --font-size: 16px; /* tamaño base consistente */
 }
 
 html, body { width: 100%; height: 100%; overflow-x: hidden; }
