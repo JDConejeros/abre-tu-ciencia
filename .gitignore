@@ -21,3 +21,6 @@ dist/
 build/
 
 /.quarto/
+
+/.quarto/
+/_site/

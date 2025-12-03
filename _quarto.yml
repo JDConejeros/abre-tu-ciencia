@@ -1,6 +1,7 @@
 project:
   type: website
   #output-dir: _site
+  output-dir: docs
 
 website:
   open-graph: true
