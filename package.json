@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "netlify-plugin-quarto": "^0.0.4"
+  }
+}
