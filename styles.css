@@ -1211,6 +1211,50 @@ body.index-page-body .navbar .bi, body.index-page-body .navbar .fa, body.index-p
   color: rgba(255,255,255,.95) !important;
 }
 
+/* En pantallas pequeñas (cuando se muestra el menú hamburguesa), 
+   hacer el navbar sólido para mejor legibilidad */
+@media (max-width: 991.98px) {
+  .navbar {
+    background: var(--white) !important; /* Fondo sólido blanco */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1) !important; /* Sombra para separación */
+  }
+  
+  /* Asegurar que los textos sean oscuros en pantallas pequeñas */
+  .navbar-nav .nav-link {
+    color: rgba(0,0,0,0.88) !important;
+  }
+  
+  .navbar .bi, .navbar .fa, .navbar i, .navbar svg {
+    color: rgba(0,0,0,0.9) !important;
+  }
+  
+  /* Incluso en index-page-body, hacer sólido en mobile */
+  .index-page-body .navbar {
+    background: var(--white) !important;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1) !important;
+  }
+  
+  .index-page-body .navbar-nav .nav-link {
+    color: rgba(0,0,0,0.88) !important;
+  }
+  
+  .index-page-body .navbar .bi, 
+  .index-page-body .navbar .fa, 
+  .index-page-body .navbar i, 
+  .index-page-body .navbar svg {
+    color: rgba(0,0,0,0.9) !important;
+  }
+  
+  /* Menú hamburguesa oscuro en mobile */
+  .navbar-toggler {
+    border-color: rgba(0,0,0,0.3) !important;
+  }
+  
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0, 0, 0, 0.9)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+  }
+}
+
 /* Forzar textos oscuros en navbar cuando estamos fuera del index */
 .navbar .nav-link{ color: rgba(0,0,0,0.88) !important; }
 .navbar .bi, .navbar .fa, .navbar i, .navbar svg{ color: rgba(0,0,0,0.9) !important; }
