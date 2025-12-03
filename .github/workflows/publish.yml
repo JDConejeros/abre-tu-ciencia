@@ -3,20 +3,18 @@ on:
   push:
     branches: [ main ]
 
-name: Quarto Publish
+name: Quarto Publish (gh-pages)
 
 permissions:
   contents: read
   pages: write
-  id-token: write
 
 jobs:
-  build:
+  build-and-publish:
     runs-on: ubuntu-latest
     permissions:
       contents: read
       pages: write
-      id-token: write
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -47,17 +45,11 @@ jobs:
           echo "Contenido de _site:"
           ls -la _site || true
 
-      - name: Upload artifact for GitHub Pages
-        uses: actions/upload-pages-artifact@v1
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v4
         with:
-          path: _site
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    permissions:
-      pages: write
-      contents: read
-    steps:
-      - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v1
+          publish_dir: ./_site
+          publish_branch: gh-pages
+          # token por defecto: ${{ secrets.GITHUB_TOKEN }}
+          # cleanup: true       # opcional: eliminar archivos huérfanos en gh-pages
+          # allow_empty_commit: false
