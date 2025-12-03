@@ -132,6 +132,75 @@ format:
           })();
           </script>
           <script src="force-grid.js"></script>
+          <script>
+          // Asegurar que los tabsets funcionen correctamente en deploy
+          // Esperar a que Bootstrap esté disponible y luego inicializar tabsets
+          (function() {
+            function initTabsets() {
+              // Verificar si Bootstrap está disponible
+              if (typeof bootstrap === 'undefined') {
+                // Si Bootstrap no está disponible, usar fallback manual
+                const tabElements = document.querySelectorAll('a[data-bs-toggle="tab"]');
+                tabElements.forEach(function(tab) {
+                  if (!tab.hasAttribute('data-initialized')) {
+                    tab.setAttribute('data-initialized', 'true');
+                    tab.addEventListener('click', function(e) {
+                      e.preventDefault();
+                      const targetId = tab.getAttribute('data-bs-target') || tab.getAttribute('href');
+                      if (targetId) {
+                        const targetPane = document.querySelector(targetId);
+                        const tabset = tab.closest('.panel-tabset');
+                        
+                        if (tabset && targetPane) {
+                          // Remover active de todos los tabs y panes en el mismo tabset
+                          const allTabs = tabset.querySelectorAll('.nav-link');
+                          const allPanes = tabset.querySelectorAll('.tab-pane');
+                          allTabs.forEach(t => t.classList.remove('active'));
+                          allPanes.forEach(p => {
+                            p.classList.remove('active', 'show');
+                            p.style.display = 'none';
+                          });
+                          
+                          // Activar el tab y pane seleccionados
+                          tab.classList.add('active');
+                          targetPane.classList.add('active', 'show');
+                          targetPane.style.display = 'block';
+                        }
+                      }
+                    });
+                  }
+                });
+              } else {
+                // Usar Bootstrap API si está disponible
+                const tabElements = document.querySelectorAll('a[data-bs-toggle="tab"]');
+                tabElements.forEach(function(tab) {
+                  if (!tab.hasAttribute('data-initialized')) {
+                    tab.setAttribute('data-initialized', 'true');
+                    const tabInstance = new bootstrap.Tab(tab);
+                    tab.addEventListener('click', function(e) {
+                      e.preventDefault();
+                      tabInstance.show();
+                    });
+                  }
+                });
+              }
+            }
+            
+            // Intentar inicializar inmediatamente
+            if (document.readyState === 'loading') {
+              document.addEventListener('DOMContentLoaded', function() {
+                setTimeout(initTabsets, 100); // Pequeño delay para asegurar que Bootstrap esté cargado
+              });
+            } else {
+              setTimeout(initTabsets, 100);
+            }
+            
+            // También intentar después de que la página esté completamente cargada
+            window.addEventListener('load', function() {
+              setTimeout(initTabsets, 50);
+            });
+          })();
+          </script>
     dark-mode: toggle
 execute: 
   freeze: true

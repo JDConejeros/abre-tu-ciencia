@@ -10,13 +10,13 @@
   --text-light: #666;
   --bg-light: #f8f9fa;
   --white: #ffffff;
-  --shadow: 0 2px 10px rgba(0,0,0,.1);
+  --shadow: 0 2px 12px rgba(0,0,0,.1);
   --shadow-hover: 0 4px 20px rgba(0,0,0,.15);
 
   /* layout */
   --navbar-h: 64px;   /* ajusta si cambias el tamaño de la barra */
   --footer-h: 72px;   /* alto mínimo del footer */
-  --body-gutter: clamp(16px, 4vw, 56px);
+  --body-gutter: clamp(14px, 4vw, 56px);
   --body-max: 1200px; /* ancho de lectura opcional en desktop */
 }
 
