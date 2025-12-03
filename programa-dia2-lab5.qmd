@@ -1,0 +1,29 @@
+---
+title: "Laboratorio 5: Cursor e IA"
+format:
+  html:
+    body-classes: program-page
+    page-layout: custom
+    main-container: default
+    toc: false
+---
+
+<br><br><br><br>
+
+# Laboratorio 5: Cursor y otros agentes de IA para automatizar flujos de trabajo
+
+**Fecha:** 23 de Enero, 2026
+
+**Horario:** 03:30 pm - 04:30 pm
+
+Este laboratorio práctico introduce a los participantes en el uso de agentes de IA como Cursor para automatizar y optimizar flujos de trabajo en investigación, facilitando tareas de programación, documentación y análisis. Los asistentes aprenderán a integrar estas herramientas de manera responsable, manteniendo transparencia y control sobre los procesos automatizados, y explorando cómo la IA puede mejorar la eficiencia sin comprometer la reproducibilidad.
+
+**Materiales**
+
+**Expositor:** José Daniel Conejeros
+
+<a href="#" class="material-link" target="_blank"><i class="fas fa-file-powerpoint"></i> Presentación</a>
+<a href="#" class="material-link" target="_blank"><i class="fas fa-folder-open"></i> Materiales</a>
+<a href="#" class="material-link" target="_blank"><i class="fab fa-github"></i> Código</a>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>

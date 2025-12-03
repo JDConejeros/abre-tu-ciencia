@@ -1,0 +1,30 @@
+---
+title: "Conferencia: Buenas prácticas"
+format:
+  html:
+    body-classes: program-page
+    page-layout: custom
+    main-container: default
+    toc: false
+---
+
+<br><br><br><br>
+
+# Conferencia Magistral: Buenas prácticas para datos y código abierto
+
+**Fecha:** 22 de Enero, 2026
+
+**Horario:** 10:00 am - 11:00 am
+
+Esta conferencia presenta estrategias y herramientas para implementar buenas prácticas en el manejo de datos y código abierto, enfocándose en estándares de documentación, organización de repositorios y flujos de trabajo que facilitan la reproducibilidad y el acceso abierto al conocimiento científico. Se abordarán casos prácticos y recursos disponibles para investigadores que buscan adoptar estas prácticas en sus proyectos.
+
+**Expositor:** Juan Carlos Castillo
+
+**Materiales**
+
+<a href="#" class="material-link" target="_blank"><i class="fas fa-file-powerpoint"></i> Presentación</a>
+<a href="#" class="material-link" target="_blank"><i class="fas fa-folder-open"></i> Materiales</a>
+<a href="#" class="material-link" target="_blank"><i class="fab fa-github"></i> Código</a>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+

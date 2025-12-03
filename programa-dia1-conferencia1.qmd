@@ -1,0 +1,29 @@
+---
+title: "Conferencia: Perspectivas globales"
+format:
+  html:
+    body-classes: program-page
+    page-layout: custom
+    main-container: default
+    toc: false
+---
+
+<br><br><br><br>
+
+# Conferencia Magistral: Perspectivas globales en reproducibilidad y transparencia
+
+**Fecha:** 22 de Enero, 2026
+
+**Horario:** 09:00 am - 10:00 am
+
+Esta conferencia magistral explora las perspectivas globales sobre reproducibilidad y transparencia en la investigación científica, abordando los desafíos y oportunidades que enfrentan investigadores e instituciones en la promoción de prácticas de ciencia abierta. Se discutirán estándares internacionales, marcos normativos y estrategias para fortalecer la credibilidad y el impacto de la investigación a través de la transparencia metodológica y la reproducibilidad de resultados.
+
+**Expositor:** José Antonio Muñoz
+
+**Materiales**
+
+<a href="#" class="material-link" target="_blank"><i class="fas fa-file-powerpoint"></i> Presentación</a>
+<a href="#" class="material-link" target="_blank"><i class="fas fa-folder-open"></i> Materiales</a>
+<a href="#" class="material-link" target="_blank"><i class="fab fa-github"></i> Código</a>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>

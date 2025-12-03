@@ -1,0 +1,186 @@
+---
+title: "Equipo"
+format:
+  html:
+    body-classes: team-page
+    sidebar: false
+---
+
+## Equipo Organizador
+
+::: {.content-section}
+::: {.container}
+
+::: {.team-grid-3}
+::: {.speaker-card}
+::: {.speaker-photo}
+![Magdalena Gatsch](images/equipo/mgat.png){.img-circle}
+:::
+
+::: {.speaker-info}
+<div class="speaker-name">Magdalena Gatsch</div>
+<div class="speaker-role">MSc en Evolución y conducta humana, UCL </div>
+<div class="speaker-bio">Trabaja en temas de salud humana, cognición en primates no humanos y bioética.</div>
+
+::: {.team-links}
+<a href="mailto:mmgatsch@uc.cl" class="team-link" title="Email"><i class="fas fa-envelope"></i></a>
+<a href="https://www.linkedin.com/in/magdalena-gatsch-bezanilla-3562991b4/" class="team-link" target="_blank" title="Linkedin"><i class="fab fa-linkedin"></i></a>
+<a href="https://github.com/MagdalenaGatsch" class="team-link" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+:::
+:::
+:::
+
+::: {.speaker-card}
+::: {.speaker-photo}
+![José Daniel Conejeros](images/equipo/jconejeros.jpg){.img-circle}
+:::
+
+::: {.speaker-info}
+<div class="speaker-name">José Daniel Conejeros</div>
+<div class="speaker-role">MSc en Estadística, PUC  </div>
+<div class="speaker-bio">Trabaja en modelamiento de enfermedades infecciosas y modelos de exposición ambiental.</div>
+
+::: {.team-links}
+<a href="mailto:jdconejeros@uc.cl" class="team-link" title="Email"><i class="fas fa-envelope"></i></a>
+<a href="https://www.linkedin.com/in/joseconejerosp/" class="team-link" target="_blank" title="Linkedin"><i class="fab fa-linkedin"></i></a>
+<a href="https://github.com/JDConejeros" class="team-link" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+:::
+:::
+:::
+
+::: {.speaker-card}
+::: {.speaker-photo}
+![María Spencer-Sandino](images/equipo/marispencer.png){.img-circle}
+:::
+
+::: {.speaker-info}
+<div class="speaker-name">María Spencer-Sandino</div>
+<div class="speaker-role">PhD en Epidemiología, PUC </div>
+<div class="speaker-bio"> Trabaja en epidemiología de enfermedades infecciosas, crónicas y cáncer  y ciencia de implementación.</div>
+
+::: {.team-links}
+<a href="mailto:mdspencer@uc.cl" class="team-link" title="Email"><i class="fas fa-envelope"></i></a>
+<a href="https://www.linkedin.com/in/mar%C3%ADa-de-los-%C3%A1ngeles-spencer-sandino-a92a4492/" class="team-link" target="_blank" title="Linkedin"><i class="fab fa-linkedin"></i></a>
+<a href="https://github.com/mdspencer0790" class="team-link" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+:::
+:::
+:::
+:::
+
+::: {.team-grid-2}
+::: {.speaker-card}
+::: {.speaker-photo}
+![Estela Blanco](images/equipo/eblanco.png){.img-circle}
+:::
+
+::: {.speaker-info}
+<div class="speaker-name">Estela Blanco</div>
+<div class="speaker-role">Profesora Asistente en College UC y Escuela de Salud Pública</div>
+<div class="speaker-bio">Epidemióloga ambiental con interés en cambio climático, salud materno-infantil y la importancia de los primeros 1000 días de vida para el desarrollo de bienestar y salud en el corto y largo plazo.</div>
+
+::: {.team-links}
+<a href="mailto:estela.blanco@uc.cl" class="team-link" title="Email"><i class="fas fa-envelope"></i></a>
+<a href="https://college.uc.cl/academicas-y-academicos/estela-blanco/" class="team-link" target="_blank" title="Sitio Web"><i class="fas fa-globe"></i></a>
+<a href="https://github.com/estela-blanco" class="team-link" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+:::
+:::
+:::
+
+::: {.speaker-card}
+::: {.speaker-photo}
+![Eduardo Undurraga](images/equipo/eundu.jpg){.img-circle}
+:::
+
+::: {.speaker-info}
+<div class="speaker-name">Eduardo Undurraga</div>
+<div class="speaker-role">Profesor Asociado y Director de Investigación en la Escuela de Gobierno UC</div>
+<div class="speaker-bio">Su investigación se centra en: (i) los factores sociales y culturales de la salud, (ii) la dinámica y economía de las enfermedades infecciosas, y (iii) la evaluación de programas e intervenciones en salud pública.</div>
+
+::: {.team-links}
+<a href="mailto:eundurra@uc.cl" class="team-link" title="Email"><i class="fas fa-envelope"></i></a>
+<a href="https://gobierno.uc.cl/profesores/eduardo-undurraga/" class="team-link" target="_blank" title="Sitio Web"><i class="fas fa-globe"></i></a>
+<a href="https://github.com/eundurra" class="team-link" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+:::
+:::
+:::
+:::
+
+:::
+:::
+
+
+## Instituciones Colaboradoras {#instituciones-colaboradoras}
+
+::: {.content-section}
+::: {.container}
+
+::: {.institutions-grid-3}
+::: {.institution-card}
+::: {.institution-photo}
+<a href="https://gobierno.uc.cl/" target="_blank" class="institution-link">
+![PUC](images/logos/egob.png)
+</a>
+:::
+:::
+
+::: {.institution-card}
+::: {.institution-photo .institution-photo-small}
+<a href="https://college.uc.cl/" target="_blank" class="institution-link">
+![PUC](images/logos/college.png)
+</a>
+:::
+:::
+
+::: {.institution-card}
+::: {.institution-photo}
+<a href="https://medicina.udd.cl/observatorio-bioetica-derecho/" target="_blank" class="institution-link">
+![UDD](images/logos/udd.png)
+</a>
+:::
+:::
+:::
+
+:::
+
+
+## Financiamiento {#financiamiento}
+
+Este proyecto es financiado gracias al BITSS Catalyst Award 2025 de la Iniciativa para la Ciencia Abierta y Transparente en la Investigación (BITSS, por sus siglas en inglés) de la Universidad de California, Berkeley.
+
+::: {.content-section}
+::: {.container}
+
+::: {.institutions-grid-3}
+::: {.institution-card}
+::: {.institution-photo .institution-photo-large}
+<a href="https://cega.berkeley.edu" target="_blank" class="institution-link">
+![CEGA](images/logos/cega_logo.png)
+</a>
+:::
+:::
+
+::: {.institution-card}
+::: {.institution-photo}
+<a href="https://www.bitss.org" target="_blank" class="institution-link">
+![BITSS](images/logos/bitss.png)
+</a>
+:::
+<div class="speaker-info">
+<div class="speaker-name">Berkeley Initiative for Transparency in the Social Sciences</div>
+</div>
+:::
+
+::: {.institution-card}
+::: {.institution-photo .institution-photo-large}
+<a href="https://www.berkeley.edu" target="_blank" class="institution-link">
+![Berkeley](images/logos/berkeley.png)
+</a>
+:::
+:::
+
+
+:::
+
+:::
+:::
+

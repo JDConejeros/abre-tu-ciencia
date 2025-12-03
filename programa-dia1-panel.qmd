@@ -1,0 +1,41 @@
+---
+title: "Panel: Dimensiones éticas"
+format:
+  html:
+    body-classes: program-page
+    page-layout: custom
+    main-container: default
+    toc: false
+---
+
+<br><br><br><br>
+
+# Panel de Discusión: Dimensiones éticas e institucionales de la ciencia abierta
+
+**Fecha:** 22 de Enero, 2026
+
+**Horario:** 11:30 am - 12:50 am
+
+Este panel de discusión aborda las dimensiones éticas e institucionales asociadas a la implementación de prácticas de ciencia abierta, explorando los desafíos normativos, culturales y políticos que enfrentan investigadores e instituciones. Los panelistas discutirán sobre responsabilidad científica, acceso equitativo al conocimiento, y los marcos éticos necesarios para promover una ciencia más transparente e inclusiva.
+
+**Materiales**
+
+**Expositora:** Macarena Rojas-Ábalos
+
+<a href="#" class="material-link" target="_blank"><i class="fas fa-file-powerpoint"></i> Presentación</a>
+<a href="#" class="material-link" target="_blank"><i class="fas fa-folder-open"></i> Materiales</a>
+<a href="#" class="material-link" target="_blank"><i class="fab fa-github"></i> Código</a>
+
+**Expositor:** Juan Alberto Lecaros
+
+<a href="#" class="material-link" target="_blank"><i class="fas fa-file-powerpoint"></i> Presentación</a>
+<a href="#" class="material-link" target="_blank"><i class="fas fa-folder-open"></i> Materiales</a>
+<a href="#" class="material-link" target="_blank"><i class="fab fa-github"></i> Código</a>
+
+**Expositora:** Catherine Reyes-Housholder
+
+<a href="#" class="material-link" target="_blank"><i class="fas fa-file-powerpoint"></i> Presentación</a>
+<a href="#" class="material-link" target="_blank"><i class="fas fa-folder-open"></i> Materiales</a>
+<a href="#" class="material-link" target="_blank"><i class="fab fa-github"></i> Código</a>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br>

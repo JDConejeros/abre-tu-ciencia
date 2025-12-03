@@ -1,0 +1,29 @@
+---
+title: "Laboratorio 4: R y {targets}"
+format:
+  html:
+    body-classes: program-page
+    page-layout: custom
+    main-container: default
+    toc: false
+---
+
+<br><br><br><br>
+
+# Laboratorio 4: Construyendo un flujo de trabajo reproducible con R y {targets}
+
+**Fecha:** 23 de Enero, 2026
+
+**Horario:** 02:00 pm - 03:00 pm
+
+Este laboratorio práctico enseña a construir flujos de trabajo reproducibles usando el paquete {targets} de R, permitiendo a los participantes automatizar análisis complejos, gestionar dependencias entre pasos y mantener trazabilidad completa de sus procesos de investigación. Los asistentes aprenderán a estructurar proyectos, definir pipelines de análisis y generar reportes que documentan cada etapa del proceso investigativo.
+
+**Materiales**
+
+**Expositor:** José Daniel Conejeros
+
+<a href="#" class="material-link" target="_blank"><i class="fas fa-file-powerpoint"></i> Presentación</a>
+<a href="#" class="material-link" target="_blank"><i class="fas fa-folder-open"></i> Materiales</a>
+<a href="#" class="material-link" target="_blank"><i class="fab fa-github"></i> Código</a>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>

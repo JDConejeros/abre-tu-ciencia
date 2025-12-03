@@ -1,0 +1,35 @@
+---
+title: "Conferencia: Protocolos y datos abiertos"
+format:
+  html:
+    body-classes: program-page
+    page-layout: custom
+    main-container: default
+    toc: false
+---
+
+<br><br><br><br>
+
+# Conferencia Magistral: Diseño de protocolos, códigos y datos abiertos
+
+**Fecha:** 23 de Enero, 2026
+
+**Horario:** 09:00 am - 10:00 am
+
+Esta conferencia magistral aborda estrategias para el diseño de protocolos de investigación, organización de códigos y gestión de datos abiertos, proporcionando marcos conceptuales y herramientas prácticas para investigadores que buscan implementar estándares de transparencia y accesibilidad. Se discutirán principios FAIR (Findable, Accessible, Interoperable, Reusable) y mejores prácticas para la documentación y publicación de recursos de investigación.
+
+**Materiales**
+
+**Expositor:** Juan David Leongomez
+
+<a href="#" class="material-link" target="_blank"><i class="fas fa-file-powerpoint"></i> Presentación</a>
+<a href="#" class="material-link" target="_blank"><i class="fas fa-folder-open"></i> Materiales</a>
+<a href="#" class="material-link" target="_blank"><i class="fab fa-github"></i> Código</a>
+
+**Expositora:** Marcela Rivera
+
+<a href="#" class="material-link" target="_blank"><i class="fas fa-file-powerpoint"></i> Presentación</a>
+<a href="#" class="material-link" target="_blank"><i class="fas fa-folder-open"></i> Materiales</a>
+<a href="#" class="material-link" target="_blank"><i class="fab fa-github"></i> Código</a>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>

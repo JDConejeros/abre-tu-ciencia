@@ -1,0 +1,29 @@
+---
+title: "Conferencia: IA y reproducibilidad"
+format:
+  html:
+    body-classes: program-page
+    page-layout: custom
+    main-container: default
+    toc: false
+---
+
+<br><br><br><br>
+
+# Conferencia Magistral: El rol de la IA en la reproducibilidad y transparencia científica
+
+**Fecha:** 23 de Enero, 2026
+
+**Horario:** 10:00 am - 11:00 am
+
+Esta conferencia explora el papel emergente de la inteligencia artificial en la promoción de la reproducibilidad y transparencia científica, analizando cómo herramientas de IA pueden facilitar la documentación, automatización y verificación de procesos de investigación. Se discutirán oportunidades y desafíos éticos asociados al uso de IA en ciencia abierta, así como estrategias para integrar estas tecnologías de manera responsable y transparente.
+
+**Materiales**
+
+**Expositora:** Patricia Chandía
+
+<a href="#" class="material-link" target="_blank"><i class="fas fa-file-powerpoint"></i> Presentación</a>
+<a href="#" class="material-link" target="_blank"><i class="fas fa-folder-open"></i> Materiales</a>
+<a href="#" class="material-link" target="_blank"><i class="fab fa-github"></i> Código</a>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>

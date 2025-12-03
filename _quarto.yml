@@ -1,0 +1,136 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  open-graph: true
+  cookie-consent: false
+  title: "Abre tu Ciencia"
+  search: 
+    location: navbar
+    type: overlay
+  navbar:
+    left:
+      - href: index.qmd
+        text: Inicio
+      - href: colaboradores.qmd
+        text: Colaboradores
+      - href: invitados.qmd
+        text: Invitados
+      - href: programa.qmd
+        text: Programa
+      - href: map.qmd
+        text: Lugar
+    right:
+      - icon: github
+        href: https://github.com/tu-usuario/abre-tu-ciencia
+      - icon: box
+        href: https://osf.io/
+  page-footer:
+        left: "Hecho con [Quarto](https://quarto.org/) por [José D. Conejeros](https://jd-conejeros.com/)." 
+        center: "The Berkeley Initiative for Transparency in the Social Sciences (BITSS), managed by the Center for Effective Global Action (CEGA), as a funding source."
+        right: "Licencia: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). 2025 © Abre tu Ciencia."            
+
+format:
+  html:
+    theme:
+      - default
+      - custom.scss
+    page-layout: full 
+    css: styles.css
+    toc: false
+    main-container: full-width
+    include-in-header:
+      - text: |
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+          <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+          <!-- Font Awesome 5 (compatible con clases `fas fa-...` usadas en el contenido) -->
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    include-after-body:
+      - text: |
+          <style>
+          /* Critical overrides: make sure active navbar links on non-index pages
+             keep a dark color (do not turn white). Injected after all other
+             styles so it has final authority. */
+          html body:not(.index-page-body) header#quarto-header nav.navbar .navbar-nav > .nav-item > a.nav-link.active,
+          html body:not(.index-page-body) header#quarto-header nav.navbar .navbar-nav > .nav-item > a.nav-link[aria-current="page"],
+          html body:not(.index-page-body) nav.navbar .navbar-nav > .nav-item > a.nav-link.active,
+          html body:not(.index-page-body) nav.navbar .navbar-nav > .nav-item > a.nav-link[aria-current="page"]{
+            color: rgba(0,0,0,0.92) !important;
+            background: transparent !important;
+            text-shadow: none !important;
+            box-shadow: none !important;
+          }
+          html body:not(.index-page-body) nav.navbar .navbar-nav > .nav-item > a.nav-link.active .menu-text,
+          html body:not(.index-page-body) nav.navbar .navbar-nav > .nav-item > a.nav-link[aria-current="page"] .menu-text{
+            color: rgba(0,0,0,0.92) !important;
+          }
+          html body:not(.index-page-body) nav.navbar .navbar-nav > .nav-item > a.nav-link.active i,
+          html body:not(.index-page-body) nav.navbar .navbar-nav > .nav-item > a.nav-link[aria-current="page"] i{
+            color: rgba(0,0,0,0.9) !important;
+            fill: currentColor !important;
+          }
+
+          /* Page load & transition animations (ONLY for non-index pages) */
+          html body{ --page-fade-duration: 420ms; }
+          html body:not(.index-page-body):not(.page-loaded) .content,
+          html body:not(.index-page-body):not(.page-loaded) header#quarto-header,
+          html body:not(.index-page-body):not(.page-loaded) .page-footer,
+          html body:not(.index-page-body):not(.page-loaded) .hero-section {
+            opacity: 0;
+            transform: translateY(8px);
+            transition: opacity var(--page-fade-duration) cubic-bezier(.2,.8,.2,1), transform var(--page-fade-duration) cubic-bezier(.2,.8,.2,1);
+          }
+          html body:not(.index-page-body).page-loaded .content,
+          html body:not(.index-page-body).page-loaded header#quarto-header,
+          html body:not(.index-page-body).page-loaded .page-footer,
+          html body:not(.index-page-body).page-loaded .hero-section {
+            opacity: 1;
+            transform: none;
+          }
+
+          /* Exit class used when navigating away (only non-index) */
+          html body:not(.index-page-body).page-exit .content,
+          html body:not(.index-page-body).page-exit header#quarto-header,
+          html body:not(.index-page-body).page-exit .page-footer,
+          html body:not(.index-page-body).page-exit .hero-section{
+            opacity: 0 !important;
+            transform: translateY(6px) !important;
+            transition: opacity calc(var(--page-fade-duration) / 1.2) ease, transform calc(var(--page-fade-duration) / 1.2) ease;
+          }
+          </style>
+
+          <script>
+          // Simple page load/transition script
+          (function(){
+            function isInternal(href){
+              try{ const u = new URL(href, location.href); return u.origin === location.origin; }catch(e){return false}
+            }
+            document.addEventListener('DOMContentLoaded', function(){
+              // small delay to allow transitions to apply
+              requestAnimationFrame(function(){ setTimeout(function(){ document.body.classList.add('page-loaded'); }, 40); });
+
+              // intercept internal link clicks to animate out
+              document.body.addEventListener('click', function(e){
+                var a = e.target.closest && e.target.closest('a');
+                if(!a) return;
+                var href = a.getAttribute('href');
+                if(!href) return;
+                // ignore external, mailto, anchors and targets
+                if(href.startsWith('#') || a.target === '_blank' || href.startsWith('mailto:')) return;
+                if(!isInternal(href)) return;
+                // allow download links
+                if(a.hasAttribute('download')) return;
+                // proceed with animated navigation
+                e.preventDefault();
+                document.body.classList.remove('page-loaded');
+                document.body.classList.add('page-exit');
+                setTimeout(function(){ window.location.href = href; }, 260);
+              }, true);
+            });
+          })();
+          </script>
+          <script src="force-grid.js"></script>
+    dark-mode: toggle
+execute: 
+  freeze: true

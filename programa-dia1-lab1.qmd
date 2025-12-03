@@ -1,0 +1,29 @@
+---
+title: "Laboratorio 1: Pre-registros"
+format:
+  html:
+    body-classes: program-page
+    page-layout: custom
+    main-container: default
+    toc: false
+---
+
+<br><br><br><br>
+
+# Laboratorio 1: Pre-registros y reportes en Open Science Framework
+
+**Fecha:** 22 de Enero, 2026
+
+**Horario:** 02:00 pm - 03:00 pm
+
+Este laboratorio práctico introduce a los participantes en el uso de Open Science Framework (OSF) para realizar pre-registros de investigación y crear reportes transparentes. Los asistentes aprenderán a estructurar proyectos de investigación, documentar metodologías antes de la recolección de datos, y compartir materiales de manera organizada y accesible, fortaleciendo la credibilidad y reproducibilidad de sus investigaciones.
+
+**Materiales**
+
+**Expositora:** Magdalena Gatsch
+
+<a href="#" class="material-link" target="_blank"><i class="fas fa-file-powerpoint"></i> Presentación</a>
+<a href="#" class="material-link" target="_blank"><i class="fas fa-folder-open"></i> Materiales</a>
+<a href="#" class="material-link" target="_blank"><i class="fab fa-github"></i> Código</a>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>

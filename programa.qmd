@@ -1,0 +1,68 @@
+---
+title: "Programa y Materiales"
+format:
+  html:
+    body-classes: program-page
+    toc: false
+    page-layout: custom
+    main-container: default
+    sidebar:
+      style: "docked"
+      search: true
+      contents:
+        - text: "Programa General"
+          file: programa.qmd
+        - text: "Pre-Workshop"
+          file: preworkshop.qmd
+        - text: "Conferencia Internacional"
+          file: programa-conferencia-internacional.qmd
+        - section: "Día 1: 22 de Enero"
+          contents:
+            - text: "Conferencia: Perspectivas globales"
+              file: programa-dia1-conferencia1.qmd
+            - text: "Conferencia: Buenas prácticas"
+              file: programa-dia1-conferencia2.qmd
+            - text: "Panel: Dimensiones éticas"
+              file: programa-dia1-panel.qmd
+            - text: "Laboratorio 1: Pre-registros"
+              file: programa-dia1-lab1.qmd
+            - text: "Laboratorio 2: Git y GitHub"
+              file: programa-dia1-lab2.qmd
+            - text: "Laboratorio 3: Quarto"
+              file: programa-dia1-lab3.qmd
+        - section: "Día 2: 23 de Enero"
+          contents:
+            - text: "Conferencia: Protocolos y datos abiertos"
+              file: programa-dia2-conferencia1.qmd
+            - text: "Conferencia: IA y reproducibilidad"
+              file: programa-dia2-conferencia2.qmd
+            - text: "Panel: Flujos reproducibles"
+              file: programa-dia2-panel.qmd
+            - text: "Laboratorio 4: R y {targets}"
+              file: programa-dia2-lab4.qmd
+            - text: "Laboratorio 5: Cursor e IA"
+              file: programa-dia2-lab5.qmd
+---
+
+## Programación
+
+Pronto se agregarán los materiales de cada sesión.
+
+
+::: {.program-note}
+::: {.fa .fa-info-circle}
+:::
+El programa se actualiza en tiempo real. Si no puedes ver la tabla, 
+[aquí puedes acceder directamente](https://docs.google.com/spreadsheets/d/1sHNJo4F7HEVU30XO55DWBTsp1aew2ikqSEQGVN-jqlQ/edit?usp=sharing){target="_blank"}.
+:::
+
+
+
+<iframe 
+  src="https://docs.google.com/spreadsheets/d/1sHNJo4F7HEVU30XO55DWBTsp1aew2ikqSEQGVN-jqlQ/preview"
+  width="100%" 
+  height="1000" 
+  frameborder="0"
+  style="border: 1px solid #e0e0e0; border-radius: 8px;">
+</iframe>
+

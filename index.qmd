@@ -1,0 +1,99 @@
+---
+title: "Workshop Abre tu Ciencia"
+format:
+  html:
+    sidebar: false
+---
+ 
+::: {.index-page}
+
+::: {#vanta-background .vanta-background}
+:::
+
+::: {#hero .hero-section}
+::: {.hero-content}
+# Abre tu Ciencia
+
+**Workshop de tres días para fortalecer tus capacidades y herramientas en ciencia abierta y reproducibilidad con referentes nacionales e internacionales.**
+
+::: {.hero-info}
+::: {.info-item}
+<i class="fas fa-calendar-alt"></i>
+21, 22 y 23 de Enero, 2026
+:::
+
+::: {.info-item}
+<i class="fas fa-map-marker-alt"></i>
+Pontificia Universidad Católica de Chile
+:::
+:::
+
+::: {.hero-cta}
+Postula hasta el martes 30 de Diciembre del 2025
+:::
+
+::: {.hero-cta}
+[Formulario de inscripción](https://forms.gle/6VJAzqBfWHyrYBpz5){.cta-inscripcion}
+:::
+
+
+
+:::
+:::
+
+<script>
+// Wait for both DOM and Vanta to be ready
+(function() {
+  function initVanta() {
+    const vantaEl = document.getElementById('vanta-background');
+    if (typeof VANTA !== 'undefined' && vantaEl) {
+      const vantaEffect = VANTA.NET({
+        el: "#vanta-background",
+        mouseControls: false,
+        touchControls: false,
+        gyroControls: false,
+        minHeight: 200.00,
+        minWidth: 200.00,
+        scale: .10,
+        scaleMobile: 1.00,
+        color: 0x206ee8,
+        backgroundColor: 0x0,
+        points: 20.00,
+        maxDistance: 20.00,
+        spacing: 12.50
+      });
+      
+      // Mejorar calidad del renderizado después de que se inicialice
+      setTimeout(function() {
+        if (vantaEffect && vantaEffect.renderer) {
+          const pixelRatio = window.devicePixelRatio || 2;
+          vantaEffect.renderer.setPixelRatio(Math.min(pixelRatio, 2)); // Máximo 2x para mejor rendimiento
+          vantaEffect.renderer.setSize(window.innerWidth, window.innerHeight);
+        }
+      }, 100);
+    } else {
+      // Retry if Vanta or element not ready
+      setTimeout(initVanta, 50);
+    }
+  }
+  
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initVanta);
+  } else {
+    initVanta();
+  }
+})();
+</script>
+
+<script>
+// Añadir clase al body cuando estamos en la página index (elemento con .index-page)
+// Esto activa las reglas CSS que dejan el navbar transparente y los textos blancos.
+document.addEventListener('DOMContentLoaded', function () {
+  if (document.querySelector('.index-page')) {
+    document.body.classList.add('index-page-body');
+  }
+});
+</script>
+
+:::
+

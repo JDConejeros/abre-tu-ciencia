@@ -1,0 +1,53 @@
+---
+title: "Programa"
+format:
+  html:
+    body-classes: team-page
+    sidebar: false
+---
+
+::: {.content-section}
+::: {.container}
+::: {.program-container}
+
+## ¿Dónde estamos?
+
+::: {.map-container}
+<iframe 
+    src="https://www.google.com/maps/d/embed?mid=1IonljAW6J-Ny2pFqJd3ZtN6OBppyhBo&ehbc=2E312F" 
+    width="100%" 
+    height="900" 
+    style="border:0;" 
+    allowfullscreen="" 
+    loading="lazy" 
+    referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+:::
+<br>
+
+**Estación de Metro:** San Joaquín (Línea 5). 
+
+**Dirección:** Av. Vicuña Mackenna 4860, 7820436 Macul, Región Metropolitana.
+
+
+::: {.columns}
+::: {.column}
+### Escuela de Gobierno 
+
+![](images/lugar/gob.jpeg){.location-image}
+
+**Sala por definir.**
+:::
+
+::: {.column}
+### College 
+
+![](images/lugar/college.jpg){.location-image}
+
+**Sala por definir.**
+:::
+:::
+
+:::
+:::
+:::

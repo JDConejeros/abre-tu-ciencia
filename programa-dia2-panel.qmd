@@ -1,0 +1,41 @@
+---
+title: "Panel: Flujos reproducibles"
+format:
+  html:
+    body-classes: program-page
+    page-layout: custom
+    main-container: default
+    toc: false
+---
+
+<br><br><br><br>
+
+# Panel de discusión: Experiencias en la implementación de flujos de trabajo reproducibles
+
+**Fecha:** 23 de Enero, 2026
+
+**Horario:** 11:30 am - 12:50 am
+
+Este panel reúne a investigadores con experiencia práctica en la implementación de flujos de trabajo reproducibles, compartiendo casos de estudio, desafíos encontrados y soluciones desarrolladas en diferentes contextos disciplinarios. Los panelistas discutirán sobre herramientas, estrategias organizacionales y cambios culturales necesarios para adoptar prácticas de investigación más transparentes y reproducibles.
+
+**Materiales**
+
+**Expositora:** Estela Blanco
+
+<a href="#" class="material-link" target="_blank"><i class="fas fa-file-powerpoint"></i> Presentación</a>
+<a href="#" class="material-link" target="_blank"><i class="fas fa-folder-open"></i> Materiales</a>
+<a href="#" class="material-link" target="_blank"><i class="fab fa-github"></i> Código</a>
+
+**Expositora:** Sandra Flores Alvarado
+
+<a href="#" class="material-link" target="_blank"><i class="fas fa-file-powerpoint"></i> Presentación</a>
+<a href="#" class="material-link" target="_blank"><i class="fas fa-folder-open"></i> Materiales</a>
+<a href="#" class="material-link" target="_blank"><i class="fab fa-github"></i> Código</a>
+
+**Expositora:** Riva Quiroga
+
+<a href="#" class="material-link" target="_blank"><i class="fas fa-file-powerpoint"></i> Presentación</a>
+<a href="#" class="material-link" target="_blank"><i class="fas fa-folder-open"></i> Materiales</a>
+<a href="#" class="material-link" target="_blank"><i class="fab fa-github"></i> Código</a>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br>

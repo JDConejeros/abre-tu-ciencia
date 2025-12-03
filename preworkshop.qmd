@@ -1,0 +1,29 @@
+---
+title: "Pre-Workshop: Introducción a Positron"
+format:
+  html:
+    body-classes: program-page
+    page-layout: custom
+    main-container: default
+    toc: true
+---
+
+<br><br><br><br>
+
+# Pre-Workshop: Introducción a Positron
+
+**Fecha:** 21 de Enero, 2026
+
+**Horario:** 06:30 pm - 09:00 pm
+
+Este taller introductorio permitirá a las y los participantes configurar correctamente su entorno de trabajo en R y familiarizarse con las interfaces de RStudio y Positron IDE. Revisaremos las funciones básicas de cada plataforma y ejecutaremos scripts simples para garantizar que todos cuenten con las herramientas necesarias antes de avanzar. Al finalizar, quienes asistan estarán preparados para aprovechar plenamente los laboratorios posteriores.
+
+**Expositor:** José Daniel Conejeros
+
+**Materiales**
+
+<a href="#" class="material-link" target="_blank"><i class="fas fa-file-powerpoint"></i> Presentación</a>
+<a href="#" class="material-link" target="_blank"><i class="fas fa-folder-open"></i> Materiales</a>
+<a href="#" class="material-link" target="_blank"><i class="fab fa-github"></i> Código</a>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>

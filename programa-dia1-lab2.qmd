@@ -1,0 +1,29 @@
+---
+title: "Laboratorio 2: Git y GitHub"
+format:
+  html:
+    body-classes: program-page
+    page-layout: custom
+    main-container: default
+    toc: false
+---
+
+<br><br><br><br>
+
+# Laboratorio 2: Control de versiones y repositorios en Git y GitHub
+
+**Fecha:** 22 de Enero, 2026
+
+**Horario:** 03:30 pm - 04:30 pm
+
+Este laboratorio práctico enseña los fundamentos de Git y GitHub para el control de versiones de código y datos, permitiendo a los participantes gestionar cambios, colaborar de manera efectiva y mantener un historial completo de sus proyectos de investigación. Se cubrirán comandos básicos, creación de repositorios, gestión de ramas y mejores prácticas para proyectos científicos reproducibles.
+
+**Materiales**
+
+**Expositora:** Riva Quiroga
+
+<a href="#" class="material-link" target="_blank"><i class="fas fa-file-powerpoint"></i> Presentación</a>
+<a href="#" class="material-link" target="_blank"><i class="fas fa-folder-open"></i> Materiales</a>
+<a href="#" class="material-link" target="_blank"><i class="fab fa-github"></i> Código</a>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>

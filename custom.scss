@@ -1,0 +1,198 @@
+/*-- scss:defaults --*/
+
+// Variables personalizadas si las necesitas
+
+/*-- scss:rules --*/
+
+/* Remove Quarto margins and padding */
+.quarto-title-block {
+  margin: 0 !important;
+  padding: 0 !important;
+  display: none !important;
+}
+
+.quarto-title {
+  margin: 0 !important;
+  padding: 0 !important;
+  display: none !important;
+}
+
+/* Hide Quarto auto-generated title */
+header.quarto-title-block {
+  display: none !important;
+}
+
+/* Remove default container lateral margins only */
+.container-fluid {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  max-width: 100% !important;
+}
+
+/* For team-page and program-page, ensure container doesn't limit width */
+body.team-page .container,
+.team-page .container,
+body.program-page .container,
+.program-page .container {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+/* Para colaboradores: ocultar sidebar y margin, ensanchar body */
+/* NO ocultar sidebar para páginas de programa que tienen sidebar configurado */
+body.team-page:not(.program-page) .column-sidebar,
+body.team-page:not(.program-page) .quarto-layout-panel .column-sidebar,
+.team-page:not(.program-page) .column-sidebar{
+  display: none !important;
+  width: 0 !important;
+  max-width: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+body.team-page:not(.program-page) .column-margin,
+body.team-page:not(.program-page) .quarto-layout-panel .column-margin,
+.team-page:not(.program-page) .column-margin{
+  display: none !important;
+  width: 0 !important;
+  max-width: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+body.team-page:not(.program-page) .column-body,
+body.team-page:not(.program-page) .quarto-layout-panel .column-body,
+.team-page:not(.program-page) .column-body{
+  width: 100% !important;
+  max-width: 100% !important;
+  flex: 1 1 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+body.team-page:not(.program-page) .quarto-layout-panel,
+body.team-page:not(.program-page) .page-columns,
+.team-page:not(.program-page) .quarto-layout-panel,
+.team-page:not(.program-page) .page-columns{
+  display: flex !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Para program-page: permitir sidebar pero mantener ancho completo del body */
+/* El padding del .column-body debe ser 0 porque el padding está en .quarto-container */
+body.program-page .column-body,
+body.program-page .quarto-layout-panel .column-body,
+.program-page .column-body{
+  width: 100% !important;
+  max-width: 100% !important;
+  flex: 1 1 auto !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  min-width: 0 !important;
+  box-sizing: border-box !important;
+}
+
+/* Asegurar que program-page use layout con sidebar */
+body.program-page .page-columns,
+body.program-page .quarto-layout-panel,
+.program-page .page-columns,
+.program-page .quarto-layout-panel{
+  display: grid !important;
+  grid-template-columns: minmax(250px, 300px) 1fr !important;
+  gap: 2rem !important;
+  max-width: 100% !important;
+  margin: 0 auto !important;
+  padding: 0 var(--body-gutter) !important;
+}
+
+/* Forzar que el sidebar se muestre incluso si page-layout: full está activo */
+body.program-page .quarto-layout-panel .column-sidebar,
+.program-page .quarto-layout-panel .column-sidebar{
+  display: block !important;
+  visibility: visible !important;
+  width: auto !important;
+  min-width: 250px !important;
+  max-width: 300px !important;
+}
+
+/* Asegurar que el contenedor principal tenga el mismo ancho que map.qmd */
+/* map.qmd: .container tiene width: 100% con padding var(--body-gutter) */
+/* programa.qmd: .quarto-container debe tener el mismo ancho máximo (limitado por --body-max) */
+body.program-page .quarto-container,
+.program-page .quarto-container{
+  max-width: var(--body-max) !important;
+  width: 100% !important;
+  margin: 0 auto !important;
+  padding-left: var(--body-gutter) !important;
+  padding-right: var(--body-gutter) !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  box-sizing: border-box !important;
+}
+
+/* Ensure navbar container is full width */
+.navbar .container-fluid {
+  width: 100% !important;
+  max-width: 100% !important;
+  padding: 0 2rem !important;
+  margin: 0 !important;
+}
+
+/* Remove lateral margins from Quarto page structure */
+.quarto-layout-panel,
+.quarto-grid-item,
+.page-columns,
+.column-page,
+.column-body {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  max-width: 100% !important;
+}
+
+/* Override navbar to remove logo area */
+.navbar-brand {
+  display: none !important;
+}
+
+/* Ensure Quarto uses its default typography (Lato) */
+body {
+  font-family: 'Lato', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Remove margins from main content - but preserve structure */
+main {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* Ensure body and html are full width */
+html {
+  width: 100%;
+  overflow-x: hidden;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Keep page title color (not white) - for navbar and page headers */
+.quarto-title-block .title,
+h1.title,
+.navbar .title {
+  color: var(--bs-body-color) !important;
+}
+
+/* Ensure navbar links are visible */
+.navbar-nav .nav-link {
+  color: var(--bs-body-color) !important;
+}
+

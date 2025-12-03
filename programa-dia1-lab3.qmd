@@ -1,0 +1,29 @@
+---
+title: "Laboratorio 3: Quarto"
+format:
+  html:
+    body-classes: program-page
+    page-layout: custom
+    main-container: default
+    toc: false
+---
+
+<br><br><br><br>
+
+# Laboratorio 3: Documentos dinámicos con Quarto
+
+**Fecha:** 22 de Enero, 2026
+
+**Horario:** 04:40 pm - 05:30 pm
+
+Este laboratorio práctico introduce a los participantes en la creación de documentos dinámicos usando Quarto, una herramienta moderna para la comunicación científica reproducible. Los asistentes aprenderán a integrar código, análisis y texto en un solo documento, generar múltiples formatos de salida (HTML, PDF, Word) y crear presentaciones y sitios web profesionales que facilitan la transparencia y reproducibilidad de la investigación.
+
+**Materiales**
+
+**Expositora:** Stephanie Orellana
+
+<a href="#" class="material-link" target="_blank"><i class="fas fa-file-powerpoint"></i> Presentación</a>
+<a href="#" class="material-link" target="_blank"><i class="fas fa-folder-open"></i> Materiales</a>
+<a href="#" class="material-link" target="_blank"><i class="fab fa-github"></i> Código</a>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>

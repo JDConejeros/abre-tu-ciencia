@@ -1,0 +1,340 @@
+---
+title: "Invitados"
+format:
+  html:
+    body-classes: invitados-page team-page
+    sidebar: false
+---
+
+##
+
+::: {.content-section}
+::: {.container}
+
+::: {.panel-tabset}
+
+## Conferencia Internacional
+
+::: {.speaker-card-horizontal}
+::: {.speaker-photo}
+![](images/invitados/ted.png){.img-circle}
+:::
+
+::: {.speaker-info-horizontal}
+<div class="speaker-name">Edward Miguel</div>
+<div class="speaker-role">Profesor Distinguido de Economía y Oxfam Professor de Economía Ambiental y de Recursos. Co-director académico del Center for Effective Global Action (CEGA). Departamento de Economía. University of California, Berkeley. </div>
+<div class="speaker-bio">Edward Miguel es Profesor Distinguido de Economía y Oxfam Professor de Economía Ambiental y de Recursos en la *University of California, Berkeley* (desde 2000), además de co-director académico del *Center for Effective Global Action* (CEGA). Obtuvo sus títulos en Economía y Matemáticas en el *Massachusetts Institute of Technology* (MIT) y su doctorado en Economía en la Harvard University, donde fue becario de la National Science Foundation. Su investigación se ha enfocado en el desarrollo económico en África, abordando causas y consecuencias económicas de la violencia, efectos de divisiones étnicas sobre la acción colectiva local, y las interacciones entre salud, educación, ambiente y productividad en contextos de pobreza. Ha realizado trabajo de campo en países como Kenia, Sierra Leona, Tanzania e India, y cuenta con más de 130 artículos y capítulos en revistas académicas de primer nivel.  ￼
+
+Además de su aporte académico, Edward Miguel ha sido un impulsor central del movimiento de ciencia abierta en ciencias sociales. Es co-fundador y director académico de la *Berkeley Initiative for Transparency in the Social Sciences* (BITSS), institución que promueve prácticas de transparencia, reproducibilidad y rigor metodológico en investigación social, y cuyo trabajo fue reconocido con el *Einstein Foundation Institutional Award 2023* por promover calidad en la investigación. También es autor, junto a colegas, del libro *Transparent and Reproducible Social Science Research: How to Do Open Science*, que sistematiza herramientas para mejorar la credibilidad de la investigación social — como planes de análisis previos, código reproducible y estándares de transparencia — y busca cambiar la cultura investigadora hacia una mayor apertura. Su labor ha sido clave para impulsar la adopción de valores de reproducibilidad, apertura de datos y responsabilidad metodológica en economistas y científicos sociales de todo el mundo. </div>
+
+::: {.team-links}
+<a href="mailto:emiguel@berkeley.edu" class="team-link" title="Email"><i class="fas fa-envelope"></i></a>
+<a href="https://emiguel.econ.berkeley.edu/" class="team-link" target="_blank" title="Sitio Web"><i class="fas fa-globe"></i></a>
+<a href="https://github.com/tedmiguel" class="team-link" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+
+:::
+:::
+:::
+
+## Día 1: 21 de Enero
+
+### Conferencia Magistral: perspectivas globales en reproducibilidad y transparencia.
+
+::: {.speaker-card-horizontal}
+::: {.speaker-photo}
+![](images/invitados/jmunoz.png){.img-circle}
+:::
+
+::: {.speaker-info-horizontal}
+<div class="speaker-name">José Antonio Muñoz</div>
+<div class="speaker-role">Director del Doctorado en Ciencias de la Complejidad Social. <br> Universidad del Desarrollo. </div>
+<div class="speaker-bio">Doctor en Comportamiento Humano y académico de la Universidad del Desarrollo. Su trabajo se sitúa en la intersección entre psicología, ciencias cognitivas y análisis cuantitativo del comportamiento. Ha desarrollado líneas de investigación orientadas a comprender cómo procesos psicológicos individuales se relacionan con dinámicas sociales más amplias. Su labor integra metodologías experimentales y modelos estadísticos aplicados, contribuyendo a la toma de decisiones en contextos educativos y organizacionales. Actualmente participa en proyectos que buscan fortalecer el uso de evidencia científica en el diseño de políticas públicas basadas en comportamiento. Es director del Diplomado "Programa de investigación científica y generación de conocimiento abierto". </div>
+
+::: {.team-links}
+<a href="mailto:ja.munoz@udd.cl" class="team-link" title="Email"><i class="fas fa-envelope"></i></a>
+<a href="https://dccs.udd.cl/persona/jose-antonio-munoz/" class="team-link" target="_blank" title="Sitio Web"><i class="fas fa-globe"></i></a>
+<a href="https://github.com/invitado" class="team-link" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+:::
+:::
+:::
+
+### Conferencia Magistral: Buenas prácticas para datos y código abierto.
+
+::: {.speaker-card-horizontal}
+::: {.speaker-photo}
+![](images/invitados/jccastillo.jpeg){.img-circle}
+:::
+
+::: {.speaker-info-horizontal}
+<div class="speaker-name">Juan Carlos Castillo</div>
+<div class="speaker-role">Profesor Titular del Departamento de Sociología. <br> Universidad de Chile. </div>
+<div class="speaker-bio">Doctor en Sociología por la Humboldt-Universität zu Berlin y Profesor Titular de la Universidad de Chile. Su trabajo se centra en el estudio de la cohesión social, la desigualdad y la justicia distributiva, integrando enfoques comparativos y métodos cuantitativos avanzados para comprender cómo factores individuales y estructurales moldean actitudes y comportamientos ciudadanos. Su labor destaca por la promoción activa de prácticas de ciencia abierta, impulsando el acceso público a datos, materiales y resultados, así como el desarrollo de capacidades para una investigación más transparente y reproducible en ciencias sociales. Actualmente participa en iniciativas que buscan fortalecer la producción de conocimiento abierto y su incorporación en la formación de investigadores y en el diseño de políticas públicas orientadas al fortalecimiento democrático. </div>
+
+::: {.team-links}
+<a href="mailto:juancastillov@uchile.cl" class="team-link" title="Email"><i class="fas fa-envelope"></i></a>
+<a href="jc-castillo.com" class="team-link" target="_blank" title="Sitio Web"><i class="fas fa-globe"></i></a>
+<a href="https://github.com/juancarloscastillo" class="team-link" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+:::
+:::
+:::
+
+### Panel de Discusión: Dimensiones éticas e institucionales de la ciencia abierta.
+
+::: {.speaker-card-horizontal}
+::: {.speaker-photo}
+![](images/invitados/mrojas.png){.img-circle}
+:::
+
+::: {.speaker-info-horizontal}
+<div class="speaker-name">Macarena Rojas-Ábalos</div>
+<div class="speaker-role">Presidenta de la ACHIPEC. <br> Asociación de Periodistas y Profesionales para la Comunicación de la Ciencia. </div>
+<div class="speaker-bio">Periodista científica y presidenta de la Asociación Chilena de Periodistas y Profesionales para la Comunicación de la Ciencia (ACHIPEC). Su trabajo se orienta en fortalecer el vínculo entre ciencia y sociedad mediante estrategias de comunicación pública que promueven el acceso equitativo al conocimiento, la participación ciudadana y la valoración social de la investigación científica. Integra su formación en biología y periodismo para abordar los desafíos culturales, institucionales y políticos asociados a la producción y circulación del conocimiento, con énfasis en el diálogo democrático, la equidad de género y la construcción de comunidades científicas más inclusivas. Ha impulsado iniciativas que buscan ampliar la alfabetización científica y consolidar prácticas de comunicación responsables, contribuyendo a que la ciencia se posicione como un bien público esencial para el desarrollo social.</div>
+
+::: {.team-links}
+<a href="mailto:macarojas.abalos@gmail.com" class="team-link" title="Email"><i class="fas fa-envelope"></i></a>
+<a href="https://chilecientifico.com/author/macarena-rojas-abalos/" class="team-link" target="_blank" title="Sitio Web"><i class="fas fa-globe"></i></a>
+<a href="https://www.linkedin.com/in/macarena-andrea-rojas-abalos/" class="team-link" target="_blank" title="GitHub"><i class="fab fa-linkedin"></i></a>
+:::
+:::
+:::
+
+::: {.speaker-card-horizontal}
+::: {.speaker-photo}
+![](images/invitados/Foto%20Juan%20Alberto%20Lecaros.jpg){.img-circle}
+:::
+
+::: {.speaker-info-horizontal}
+<div class="speaker-name">Juan Alberto Lecaros</div>
+<div class="speaker-role">Director Observatorio de Bioética y Derecho. <br> Universidad del Desarrollo.</div>
+<div class="speaker-bio">Académico de la Facultad de Medicina de la Universidad del Desarrollo y Director del Programa de Ética Biomédica de la misma institución. Su investigación aborda temas de bioética, ética clínica y regulación sanitaria, integrando perspectivas filosóficas, jurídicas y prácticas en torno a dilemas contemporáneos en salud. Ha participado en comités asesores y proyectos institucionales vinculados a la ética aplicada, el consentimiento informado y la investigación en seres humanos. Su labor contribuye a consolidar marcos normativos y orientaciones prácticas que fortalecen la gobernanza ética de los sistemas de salud y la investigación biomédica en Chile.</div>
+
+::: {.team-links}
+<a href="mailto:jlecaros@udd.cl" class="team-link" title="Email"><i class="fas fa-envelope"></i></a>
+<a href="https://medicina.udd.cl/icim/persona/juan-alberto-lecaros/#!/page=1" class="team-link" target="_blank" title="Sitio Web"><i class="fas fa-globe"></i></a>
+<a href="https://www.linkedin.com/in/juan-alberto-lecaros-urz%C3%BAa-0691a6134/" class="team-link" target="_blank" title="GitHub"><i class="fab fa-linkedin"></i></a>
+:::
+:::
+:::
+
+::: {.speaker-card-horizontal}
+::: {.speaker-photo}
+![](images/invitados/creyes.png){.img-circle}
+:::
+
+::: {.speaker-info-horizontal}
+<div class="speaker-name">Catherine Reyes-Housholder</div>
+<div class="speaker-role">Profesor Asociado Instituto de Ciencia Política <br> Pontificia Universidad Católica de Chile </div>
+<div class="speaker-bio"> Doctora en Gobierno por Cornell University y académica del Instituto de Ciencia Política de la Pontificia Universidad Católica de Chile, con especialización en política comparada para América Latina. Su investigación se centra en el estudio de la presidencia y el género, usando métodos mixtos que combinan herramientas cuantitativas, cualitativas e históricas para analizar cómo mujeres acceden al poder presidencial y qué efectos tienen sus mandatos. Además de su producción científica, coordina la Escuela de Verano de Métodos Mixtos del Instituto, con el objetivo de formar colegas en prácticas transparentes y robustas. Su compromiso con la ciencia abierta y la rigurosidad metodológica contribuye a fortalecer la credibilidad, la reproducibilidad y el acceso equitativo al conocimiento en América Latina.</div>
+
+::: {.team-links}
+<a href="mailto:creyeshousholder@uc.cl" class="team-link" title="Email"><i class="fas fa-envelope"></i></a>
+<a href="http://www.reyes-housholder.com/" class="team-link" target="_blank" title="Sitio Web"><i class="fas fa-globe"></i></a>
+<a href="https://www.linkedin.com/in/catherine-reyes-housholder-05075454/" class="team-link" target="_blank" title="GitHub"><i class="fab fa-linkedin"></i></a>
+:::
+:::
+:::
+
+### Laboratorio 1: Pre-registros y reportes en Open Science Framework.
+
+::: {.speaker-card-horizontal}
+::: {.speaker-photo}
+![](images/invitados/mgat.png){.img-circle}
+:::
+
+::: {.speaker-info-horizontal}
+<div class="speaker-name">Magdalena Gatsch</div>
+<div class="speaker-role">Investigadora Joven Observatorio de Bioética y Derecho. <br> Universidad del Desarrollo.</div>
+<div class="speaker-bio">Antropóloga social de la Pontificia Universidad Católica de Chile e investigadora en etapa inicial interesada en las interacciones entre animales no humanos y humanos, con especial énfasis en primatología y ecologías inter-especies. Su trabajo combina investigación empírica sobre relaciones humano-microbianas con líneas emergentes asociadas a la resistencia antimicrobiana y la inocuidad alimentaria. En paralelo desarrolla iniciativas de ciencia abierta orientadas a la implementación de preregistros y Registered Reports en Chile, articulando formación y práctica mediante talleres que introducen herramientas como OSF y estándares de transparencia para investigadores de áreas sociales y biomédicas. Su labor busca promover una cultura científica más rigurosa, reproducible y accesible, contribuyendo a la adopción temprana de prácticas abiertas entre nuevas generaciones de investigadoras e investigadores.</div>
+
+::: {.team-links}
+<a href="mailto:mmgatsch@uc.cl" class="team-link" title="Email"><i class="fas fa-envelope"></i></a>
+<a href="https://www.linkedin.com/in/magdalena-gatsch-bezanilla-3562991b4/" class="team-link" target="_blank" title="Linkedin"><i class="fab fa-linkedin"></i></a>
+<a href="https://github.com/MagdalenaGatsch" class="team-link" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+:::
+:::
+:::
+
+### Laboratorio 2: Control de versiones y repositorios en Git y GitHub.
+
+::: {.speaker-card-horizontal}
+::: {.speaker-photo}
+![](images/invitados/rquiroga.png){.img-circle}
+:::
+
+::: {.speaker-info-horizontal}
+<div class="speaker-name">Riva Quiroga</div>
+<div class="speaker-role">Research Fellow en Open Life Science. <br> Co-Fundadora de R-Ladies Santiago y R-Ladies Valparaíso. <br> Chair LatinR. </div>
+<div class="speaker-bio"> Investigadora independiente y educadora en datos, cofundadora de los capítulos locales R-Ladies Santiago / R-Ladies Valparaíso y editora en The Programming Historian, donde contribuye a la publicación de tutoriales multilingües revisados por pares para humanidades y ciencias sociales. Es instructora certificada en R, Git y Quarto, y ha promovido ampliamente flujos reproducibles y open source en Chile y América Latina. A través de talleres, comunidad y software abierto, trabaja para democratizar el acceso a herramientas de análisis, visualización de datos y comunicación académica transparente. Su labor contribuye al fortalecimiento de una cultura de investigación abierta, inclusiva y reproducible, facilitando que más investigadoras e investigadores adopten buenas prácticas de ciencia abierta.</div>
+
+::: {.team-links}
+<a href="mailto:riva.quiroga@uc.cl" class="team-link" title="Email"><i class="fas fa-envelope"></i></a>
+<a href="https://rivaquiroga.cl/" class="team-link" target="_blank" title="Sitio Web"><i class="fas fa-globe"></i></a>
+<a href="https://github.com/rivaquiroga/" class="team-link" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+:::
+:::
+:::
+
+### Laboratorio 3: Documentos dinámicos con Quarto
+
+::: {.speaker-card-horizontal}
+::: {.speaker-photo}
+![Invitado 3](images/invitados/sorellana.png){.img-circle}
+:::
+
+::: {.speaker-info-horizontal}
+<div class="speaker-name">Stephanie Orellana</div>
+<div class="speaker-role">Senior Data Scientist / Research Software Engineer <br> Cienciambiental</div>
+<div class="speaker-bio">Ingeniera Agrónoma y Magíster en Recursos Naturales. Trabaja como científica de datos especializada en análisis espacial, cambio climático y visualización de datos. Su labor combina desarrollo técnico, usando lenguajes como R y Python, con un fuerte compromiso con la reproducibilidad, la transparencia y la democratización del acceso al conocimiento. Fomenta flujos reproducibles mediante pipelines de datos + reportes dinámicos con Quarto, y difunde estos estándares en talleres para la comunidad hispana. Como parte de su compromiso con la ciencia abierta, integra buenas prácticas de control de versiones, documentación clara y acceso libre a datos y scripts, con el fin de promover una cultura de análisis de datos responsable e inclusiva en Chile y América Latina.</div>
+
+::: {.team-links}
+<a href="mailto:sporella.dev@gmail.com" class="team-link" title="Email"><i class="fas fa-envelope"></i></a>
+<a href="https://sporella.xyz/about/" class="team-link" target="_blank" title="Sitio Web"><i class="fas fa-globe"></i></a>
+<a href="https://github.com/sporella/" class="team-link" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+:::
+:::
+:::
+
+## Día 2: 22 de Enero
+
+### Conferencia Magistral: Diseño de protocolos, códigos y datos abiertos.
+
+::: {.speaker-card-horizontal}
+::: {.speaker-photo}
+![](images/invitados/jLeongomez.webp){.img-circle}
+:::
+
+::: {.speaker-info-horizontal}
+<div class="speaker-name">Juan David Leongomez</div>
+<div class="speaker-role">Profesor Asociado Facultad de Psicología. <br> Universidad El Bosque en Bogotá, Colombia. </div>
+<div class="speaker-bio"> Profesor Asociado e investigador de EvoCo: Laboratorio de Evolución y Comportamiento Humano, de la Facultad de Psicología de la Universidad El Bosque en Bogotá, Colombia, y lider del grupo de investigación CODEC: Ciencias Cognitivas y del Comportamiento. Su investigación combina análisis acústico, estadística y teorías de comportamiento humano para comprender cómo señales vocales y percepciones auditivas están vinculadas a preferencias sociales y biológicas. Comprometido con la reproducibilidad y la transparencia científica, promueve métodos cuantitativos reproducibles y prácticas de ciencia abierta: publica su código y datos cuando es posible, fomenta documentación clara y estandarización metodológica, y lidera iniciativas de formación en R y buenas prácticas de investigación. A través de talleres, cursos y recursos públicos, contribuye a difundir una cultura de investigación responsable, accesible y replicable en psicología, bioacústica y ciencias humanas.</div>
+
+::: {.team-links}
+<a href="mailto:jleongomez@unbosque.edu.co" class="team-link" title="Email"><i class="fas fa-envelope"></i></a>
+<a href="https://jdleongomez.info/es/" class="team-link" target="_blank" title="Sitio Web"><i class="fas fa-globe"></i></a>
+<a href="https://github.com/JDLeongomez" class="team-link" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+:::
+:::
+:::
+
+
+::: {.speaker-card-horizontal}
+::: {.speaker-photo}
+![](images/invitados/mrivera.jpg){.img-circle}
+:::
+
+::: {.speaker-info-horizontal}
+<div class="speaker-name">Marcela Rivera</div>
+<div class="speaker-role">Subdirectora de Recursos de Información y Archivos. <br> Bibliotecas UC. </div>
+<div class="speaker-bio">Bibliotecóloga y Documentalista de la Universidad Tecnológica Metropolitana, con un MBA de la Universidad de Chile y especializaciones en Gestión Bibliotecaria por la Pontificia Universidad Católica de Chile y en Capital Humano por la Universidad Adolfo Ibáñez. Su trabajo se centra en tecnologías de la información, repositorios digitales, preservación de archivos y plataformas para bibliotecas universitarias, integrando gestión documental y desarrollo estratégico de servicios informacionales. Ha ocupado roles de liderazgo en Bibliotecas UC, donde se desempeñó como subdirectora de Recursos de Información y Archivos. Desde esa posición, colideró en 2021 el componente de plataformas y servicios del proyecto InES de Ciencia Abierta, impulsando la adopción de estándares técnicos, repositorios institucionales y mecanismos para la difusión de la producción científica. Es coautora de publicaciones y lineamientos sobre ecosistemas de ciencia abierta, certificación de repositorios y, en 2024, de la propuesta nacional para una política de datos FAIR en Chile, contribuyendo a fortalecer la infraestructura y gobernanza de datos para la investigación en el país.</div>
+
+::: {.team-links}
+<a href="mailto:mrivera@uc.cl" class="team-link" title="Email"><i class="fas fa-envelope"></i></a>
+<a href="https://cienciaabierta.uc.cl/noticias/marcela-rivera-publicar-en-abierto-en-los-repositorios-asegura-la-democratizacion-del-conocimiento/" class="team-link" target="_blank" title="Sitio Web"><i class="fas fa-globe"></i></a>
+<a href="https://www.linkedin.com/in/marcela-rivera-aa0a5133/" class="team-link" target="_blank" title="GitHub"><i class="fab fa-linkedin"></i></a>
+:::
+:::
+:::
+
+### Conferencia Magistral: El rol de la IA en la reproducibilidad y transparencia científica.
+
+::: {.speaker-card-horizontal}
+::: {.speaker-photo}
+![](images/invitados/Pchandia.jpg){.img-circle}
+:::
+
+::: {.speaker-info-horizontal}
+<div class="speaker-name">Patricia Chandía</div>
+<div class="speaker-role">Analista de Gobierno de Datos. <br> Caja Los Andes. </div>
+<div class="speaker-bio"> Socióloga y Magíster en Inteligencia Artificial por la Pontificia Universidad Católica de Chile, con una trayectoria profesional situada en la intersección entre las ciencias sociales, la analítica avanzada y la tecnología. Actualmente se desempeña como especialista en Gobierno de Datos en Caja de Compensación Los Andes, donde diseña e implementa soluciones basadas en inteligencia artificial para optimizar procesos organizacionales y apoyar la toma de decisiones informada. Complementa su labor profesional con docencia y actividades formativas en herramientas de IA, ciencia abierta y uso responsable de tecnologías digitales, promoviendo buenas prácticas de documentación, trazabilidad y reutilización de modelos y datos. Ha participado como charlista en iniciativas internacionales como Women in Data Science, Women Techmakers de Google y Women in Computing Chile, contribuyendo a la democratización del acceso al conocimiento tecnológico y al fortalecimiento de comunidades que impulsan la innovación abierta y la participación de mujeres en ciencia y tecnología.</div>
+
+::: {.team-links}
+<a href="mailto:pchandia5954@gmail.com" class="team-link" title="Email"><i class="fas fa-envelope"></i></a>
+<a href="https://www.linkedin.com/in/pchandia5954/" class="team-link" target="_blank" title="GitHub"><i class="fab fa-linkedin"></i></a>
+<a href="https://github.com/pchandia5954" class="team-link" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+:::
+:::
+:::
+
+
+### Panel de discusión: Experiencias en la implementación de flujos de trabajo reproducibles
+
+::: {.speaker-card-horizontal}
+::: {.speaker-photo}
+![](images/invitados/eblanco.png){.img-circle}
+:::
+
+::: {.speaker-info-horizontal}
+<div class="speaker-name">Estela Blanco</div>
+<div class="speaker-role">Profesora Asistente en College UC y Escuela de Salud Pública</div>
+<div class="speaker-bio">Epidemióloga ambiental con interés en cambio climático, salud materno-infantil y la importancia de los primeros 1000 días de vida para el desarrollo de bienestar y salud en el corto y largo plazo. Sus trabajos más recientes se enfocan en la contaminación del aire por quema de leña en el Sur de Chile, la exposición a temperaturas extremas durante el embarazo y efectos en el recién nacido. Se ha colaborado en estudios longitudinales sobre deficiencias nutricionales y riesgo cardiovascular, y proyectos de prevención de VIH/SIDA en EEUU y México. Además, ha investigado la relación entre exposición al arsénico en el agua potable y el riesgo de cáncer en una población altamente expuesta en el Norte de Chile.</div>
+
+::: {.team-links}
+<a href="mailto:estela.blanco@uc.cl" class="team-link" title="Email"><i class="fas fa-envelope"></i></a>
+<a href="https://college.uc.cl/academicas-y-academicos/estela-blanco/" class="team-link" target="_blank" title="Sitio Web"><i class="fas fa-globe"></i></a>
+<a href="https://github.com/estela-blanco" class="team-link" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+:::
+:::
+:::
+
+::: {.speaker-card-horizontal}
+::: {.speaker-photo}
+![](images/invitados/sflores.jpg){.img-circle}
+:::
+
+::: {.speaker-info-horizontal}
+<div class="speaker-name">Sandra Flores Alvarado</div>
+<div class="speaker-role">Profesora Asistente Escuela de Salud Pública. <br> Universidad de Chile.</div>
+<div class="speaker-bio">Antropóloga Física, Magíster en Bioestadística y Doctora en Salud Pública. Se desempeña en el Programa de Bioestadística de la Escuela de Salud Pública de la Universidad de Chile, donde coordina el Magíster en Bioestadística y realiza docencia en pregrado y posgrado. Imparte cursos en computación estadística y ciencia abierta, promoviendo el análisis crítico de datos públicos mediante software libre y la adopción de prácticas de investigación reproducible. Su labor académica integra enfoques interdisciplinarios para el análisis de datos en salud, articulando metodologías estadísticas con herramientas como R, Quarto y GitHub para desarrollar flujos de trabajo abiertos y trazables. Coordina el Grupo de Ciencia de Datos para la Salud Pública, desde donde impulsa proyectos destinados a mejorar la calidad, gobernanza y disponibilidad de datos sanitarios, contribuyendo a la consolidación de estándares de transparencia, colaboración y ética en la investigación en salud pública.</div>
+
+::: {.team-links}
+<a href="mailto:sfloresa@uchile.cl" class="team-link" title="Email"><i class="fas fa-envelope"></i></a>
+<a href="https://www.linkedin.com/in/sandra-andrea-flores-alvarado-64300536/" class="team-link" target="_blank" title="GitHub"><i class="fab fa-linkedin"></i></a>
+<a href="https://github.com/sfloresalvarado" class="team-link" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+:::
+:::
+:::
+
+::: {.speaker-card-horizontal}
+::: {.speaker-photo}
+![Invitado 3](images/invitados/rquiroga.png){.img-circle}
+:::
+
+::: {.speaker-info-horizontal}
+<div class="speaker-name">Riva Quiroga</div>
+<div class="speaker-role">Research Fellow en Open Life Science. <br> Co-Fundadora de R-Ladies Santiago y R-Ladies Valparaíso. <br> Chair LatinR. </div>
+<div class="speaker-bio"> Investigadora independiente y educadora en datos, cofundadora de los capítulos locales R-Ladies Santiago / R-Ladies Valparaíso y editora en The Programming Historian, donde contribuye a la publicación de tutoriales multilingües revisados por pares para humanidades y ciencias sociales. Es instructora certificada en R, Git y Quarto, y ha promovido ampliamente flujos reproducibles y open source en Chile y América Latina. A través de talleres, comunidad y software abierto, trabaja para democratizar el acceso a herramientas de análisis, visualización de datos y comunicación académica transparente. Su labor contribuye al fortalecimiento de una cultura de investigación abierta, inclusiva y reproducible, facilitando que más investigadoras e investigadores adopten buenas prácticas de ciencia abierta.</div>
+
+::: {.team-links}
+<a href="mailto:riva.quiroga@uc.cl" class="team-link" title="Email"><i class="fas fa-envelope"></i></a>
+<a href="https://rivaquiroga.cl/" class="team-link" target="_blank" title="Sitio Web"><i class="fas fa-globe"></i></a>
+<a href="https://github.com/rivaquiroga/" class="team-link" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+:::
+:::
+:::
+
+### Laboratorio 4: Construyendo un flujo de trabajo reproducible con R y {targets} <br> Y Laboratorio 5: Cursor y otros agentes de IA para automatizar flujos de trabajo
+
+::: {.speaker-card-horizontal}
+::: {.speaker-photo}
+![Invitado 1](images/invitados/jconejeros.jpg){.img-circle}
+:::
+
+::: {.speaker-info-horizontal}
+<div class="speaker-name">José Daniel Conejeros</div>
+<div class="speaker-role"> Investigador Joven. <br> Escuela de Gobierno & College UC. </div>
+<div class="speaker-bio">Magíster en Estadística por la Pontificia Universidad Católica de Chile, con formación en Data Science. Su trabajo se sitúa en la intersección entre salud pública, estadística aplicada y computación reproducible, integrando modelamiento estadístico, machine learning y análisis automatizado de datos con R y Python. Ha sido docente en la Universidad Diego Portales y en la Escuela de Gobierno UC, donde imparte cursos en Big Data, métodos causales, evaluación de impacto, procesamiento y visualización de datos, y modelos multinivel. Su labor académica promueve prácticas de ciencia abierta mediante el uso de flujos de trabajo reproducibles en R, automatización analítica con {targets} e integración de agentes de IA para mejorar la trazabilidad y transparencia de los procesos de investigación. Ha participado como investigador y analista cuantitativo en proyectos FONDECYT, contribuyendo a la construcción de evidencia robusta para el diseño y evaluación de políticas públicas.</div>
+
+::: {.team-links}
+<a href="mailto:jdconejeros@uc.cl" class="team-link" title="Email"><i class="fas fa-envelope"></i></a>
+<a href="https://www.linkedin.com/in/joseconejerosp/" class="team-link" target="_blank" title="Linkedin"><i class="fab fa-linkedin"></i></a>
+<a href="https://github.com/JDConejeros" class="team-link" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+:::
+:::
+:::
+
+:::
+
+:::
+:::
+
+

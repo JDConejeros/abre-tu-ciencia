@@ -1,0 +1,31 @@
+---
+title: "Conferencia Internacional"
+format:
+  html:
+    body-classes: program-page
+    page-layout: custom
+    main-container: default
+    toc: false
+---
+
+<br><br><br><br>
+
+# Conferencia Internacional: Perspectivas globales sobre reproducibilidad y transparencia en ciencia
+
+**Fecha:** 22 de Enero, 2026
+
+**Horario:** 09:00 am - 10:00 am
+
+Esta conferencia magistral aborda las perspectivas globales sobre reproducibilidad y transparencia en ciencia, explorando los desafíos y oportunidades que enfrenta la comunidad científica internacional en la promoción de prácticas de ciencia abierta. El expositor compartirá experiencias y reflexiones sobre cómo fortalecer la credibilidad y el impacto de la investigación científica a través de estándares de transparencia y reproducibilidad.
+
+**Expositor:** Edward Miguel
+
+**Materiales**
+
+<a href="#" class="material-link" target="_blank"><i class="fas fa-file-powerpoint"></i> Presentación</a>
+<a href="#" class="material-link" target="_blank"><i class="fas fa-folder-open"></i> Materiales</a>
+<a href="#" class="material-link" target="_blank"><i class="fab fa-github"></i> Código</a>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+

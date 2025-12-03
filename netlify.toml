@@ -1,0 +1,9 @@
+[build]
+  publish = "_site"
+  command = "quarto render"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
