@@ -1,1 +1,1 @@
-Sitemap: https://atc26.netlify.app/sitemap.xml
+Sitemap: https://atc26.com/sitemap.xml
