@@ -3,6 +3,8 @@ project:
   #output-dir: _site
   output-dir: docs
 
+lang: es
+
 website:
   open-graph: true
   cookie-consent: false
@@ -26,7 +28,8 @@ website:
       - icon: github
         href: https://github.com/JDConejeros/abre-tu-ciencia
       - icon: box
-        href: https://osf.io/
+        text: OSF
+        href: https://osf.io/7ufwr/overview?view_only=1f24bd6b89144610aee0499ac3529fe5
   page-footer:
         left: "Hecho con [Quarto](https://quarto.org/) por [José D. Conejeros](https://jd-conejeros.com/)." 
         center: "The Berkeley Initiative for Transparency in the Social Sciences (BITSS), managed by the Center for Effective Global Action (CEGA), as a funding source."

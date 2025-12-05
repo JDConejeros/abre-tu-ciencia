@@ -21,7 +21,6 @@ format:
 <i class="fas fa-calendar-alt"></i>
 21, 22 y 23 de Enero, 2026
 :::
-
 ::: {.info-item}
 <i class="fas fa-map-marker-alt"></i>
 Pontificia Universidad Católica de Chile
@@ -97,3 +96,4 @@ document.addEventListener('DOMContentLoaded', function () {
 
 :::
 
+<br>

@@ -75,12 +75,12 @@ format:
 
 ::: {.speaker-info}
 <div class="speaker-name">Estela Blanco</div>
-<div class="speaker-role">Profesora Asistente en College UC y Escuela de Salud Pública</div>
+<div class="speaker-role">Profesora Asociada en College UC y Escuela de Salud Pública</div>
 <div class="speaker-bio">Epidemióloga ambiental con interés en cambio climático, salud materno-infantil y la importancia de los primeros 1000 días de vida para el desarrollo de bienestar y salud en el corto y largo plazo.</div>
 
 ::: {.team-links}
 <a href="mailto:estela.blanco@uc.cl" class="team-link" title="Email"><i class="fas fa-envelope"></i></a>
-<a href="https://college.uc.cl/academicas-y-academicos/estela-blanco/" class="team-link" target="_blank" title="Sitio Web"><i class="fas fa-globe"></i></a>
+<a href="https://estelablanco.cl/" class="team-link" target="_blank" title="Sitio Web"><i class="fas fa-globe"></i></a>
 <a href="https://github.com/estela-blanco" class="team-link" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
 :::
 :::

@@ -15,6 +15,8 @@ format:
 
 ## Conferencia Internacional
 
+### Reproducibilidad con Impacto: Cómo la Ciencia Abierta Puede Cambiar el Mundo.
+
 ::: {.speaker-card-horizontal}
 ::: {.speaker-photo}
 ![](images/invitados/ted.png){.img-circle}
@@ -51,7 +53,7 @@ Además de su aporte académico, Edward Miguel ha sido un impulsor central del m
 <div class="speaker-bio">Ingeniera Civil en Informática y Magíster en Innovación, Tecnología y Emprendimiento, con amplia experiencia en transformación digital, transferencia tecnológica y desarrollo de soluciones para los sectores minero y energético. Actualmente se desempeña como Directora Ejecutiva del Instituto de Tecnologías Limpias (ITL) y es miembro del directorio de Enami, desde donde impulsa iniciativas de innovación sostenible y articulación público-privada. Su trabajo promueve la adopción de prácticas abiertas en proyectos de I+D, fomentando la disponibilidad de datos, la transparencia en la gestión tecnológica y la colaboración entre industria, academia y Estado para acelerar procesos de innovación con impacto social y ambiental. </div>
 
 ::: {.team-links}
-<a href="mailto:" class="team-link" title="Email"><i class="fas fa-envelope"></i></a>
+<a href="mailto:nancy.perez.o@gmail.com" class="team-link" title="Email"><i class="fas fa-envelope"></i></a>
 <a href="https://www.linkedin.com/in/nancy-p%C3%A9rez-ojeda/" class="team-link" target="_blank" title="Linkedin"><i class="fab fa-linkedin"></i></a>
 <a href="https://github.com/invitado" class="team-link" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
 :::
@@ -265,12 +267,12 @@ Además de su aporte académico, Edward Miguel ha sido un impulsor central del m
 
 ::: {.speaker-info-horizontal}
 <div class="speaker-name">Estela Blanco</div>
-<div class="speaker-role">Profesora Asistente en College UC y Escuela de Salud Pública</div>
+<div class="speaker-role">Profesora Asociada en College UC y Escuela de Salud Pública</div>
 <div class="speaker-bio">Epidemióloga ambiental con interés en cambio climático, salud materno-infantil y la importancia de los primeros 1000 días de vida para el desarrollo de bienestar y salud en el corto y largo plazo. Sus trabajos más recientes se enfocan en la contaminación del aire por quema de leña en el Sur de Chile, la exposición a temperaturas extremas durante el embarazo y efectos en el recién nacido. Se ha colaborado en estudios longitudinales sobre deficiencias nutricionales y riesgo cardiovascular, y proyectos de prevención de VIH/SIDA en EEUU y México. Además, ha investigado la relación entre exposición al arsénico en el agua potable y el riesgo de cáncer en una población altamente expuesta en el Norte de Chile.</div>
 
 ::: {.team-links}
 <a href="mailto:estela.blanco@uc.cl" class="team-link" title="Email"><i class="fas fa-envelope"></i></a>
-<a href="https://college.uc.cl/academicas-y-academicos/estela-blanco/" class="team-link" target="_blank" title="Sitio Web"><i class="fas fa-globe"></i></a>
+<a href="https://estelablanco.cl/" class="team-link" target="_blank" title="Sitio Web"><i class="fas fa-globe"></i></a>
 <a href="https://github.com/estela-blanco" class="team-link" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
 :::
 :::

@@ -32,6 +32,11 @@ body{
   color: var(--text-color); line-height: 1.6; background: var(--white);
 }
 
+/* Reducir tamaño de texto solo para la página index */
+body.index-page-body {
+  font-size: 0.75rem !important; /* 12px - más pequeño que el resto */
+}
+
 /* ───────────────────────────────
    Tipografía
    ─────────────────────────────── */
@@ -464,6 +469,19 @@ body.invitados-page .speaker-card-horizontal .team-link i,
   line-height: 1.6 !important;
 }
 
+/* Justificar texto solo para invitados - debe estar después de la regla anterior */
+/* Máxima especificidad para asegurar que sobrescriba todas las reglas anteriores */
+body.invitados-page .speaker-info-horizontal .speaker-bio,
+body.invitados-page.team-page .speaker-info-horizontal .speaker-bio,
+.invitados-page .speaker-info-horizontal .speaker-bio,
+body.invitados-page .speaker-card-horizontal .speaker-info-horizontal .speaker-bio,
+.invitados-page .speaker-card-horizontal .speaker-info-horizontal .speaker-bio,
+html body.invitados-page .speaker-info-horizontal .speaker-bio,
+html body.invitados-page .speaker-card-horizontal .speaker-info-horizontal .speaker-bio,
+html body.invitados-page.team-page .speaker-info-horizontal .speaker-bio {
+  text-align: justify !important;
+}
+
 .speaker-info-horizontal .team-links{
   justify-content: flex-start !important;
   margin-top: 1rem !important;
@@ -483,8 +501,18 @@ body.invitados-page .speaker-card-horizontal .team-link i,
   
   .speaker-info-horizontal,
   .speaker-info-horizontal .speaker-name,
-  .speaker-info-horizontal .speaker-role,
-  .speaker-info-horizontal .speaker-bio{
+  .speaker-info-horizontal .speaker-role{
+    text-align: center !important;
+  }
+  
+  /* Mantener justificación en mobile solo para invitados */
+  body.invitados-page .speaker-info-horizontal .speaker-bio,
+  .invitados-page .speaker-info-horizontal .speaker-bio {
+    text-align: justify !important;
+  }
+  
+  /* Para otras páginas, centrar en mobile */
+  body:not(.invitados-page) .speaker-info-horizontal .speaker-bio {
     text-align: center !important;
   }
   
@@ -543,6 +571,19 @@ body.invitados-page .speaker-card-horizontal .team-link i,
   line-height: 1.6 !important;
 }
 
+/* Justificar texto solo para invitados - debe estar después de la regla anterior */
+/* Máxima especificidad para asegurar que sobrescriba todas las reglas anteriores */
+body.invitados-page .speaker-info-horizontal .speaker-bio,
+body.invitados-page.team-page .speaker-info-horizontal .speaker-bio,
+.invitados-page .speaker-info-horizontal .speaker-bio,
+body.invitados-page .speaker-card-horizontal .speaker-info-horizontal .speaker-bio,
+.invitados-page .speaker-card-horizontal .speaker-info-horizontal .speaker-bio,
+html body.invitados-page .speaker-info-horizontal .speaker-bio,
+html body.invitados-page .speaker-card-horizontal .speaker-info-horizontal .speaker-bio,
+html body.invitados-page.team-page .speaker-info-horizontal .speaker-bio {
+  text-align: justify !important;
+}
+
 .speaker-info-horizontal .team-links{
   justify-content: flex-start !important;
   margin-top: 1rem !important;
@@ -562,8 +603,18 @@ body.invitados-page .speaker-card-horizontal .team-link i,
   
   .speaker-info-horizontal,
   .speaker-info-horizontal .speaker-name,
-  .speaker-info-horizontal .speaker-role,
-  .speaker-info-horizontal .speaker-bio{
+  .speaker-info-horizontal .speaker-role{
+    text-align: center !important;
+  }
+  
+  /* Mantener justificación en mobile solo para invitados */
+  body.invitados-page .speaker-info-horizontal .speaker-bio,
+  .invitados-page .speaker-info-horizontal .speaker-bio {
+    text-align: justify !important;
+  }
+  
+  /* Para otras páginas, centrar en mobile */
+  body:not(.invitados-page) .speaker-info-horizontal .speaker-bio {
     text-align: center !important;
   }
   
@@ -795,6 +846,19 @@ body.program-page section.level2:last-of-type .institution-card .institution-pho
 .speaker-name, .team-name{ font-size: 1.5rem; margin-bottom: .5rem; color: var(--secondary-color); }
 .speaker-affiliation, .team-role{ color: var(--primary-color); font-weight: 500; margin-bottom: 1rem; font-size: .95rem; }
 .speaker-bio, .team-description{ color: var(--text-light); line-height: 1.6; font-size: .95rem; margin-bottom: 1rem; }
+
+/* Justificar texto de descripciones solo en la página de invitados */
+/* Aumentar especificidad para sobrescribir reglas anteriores */
+body.invitados-page .speaker-bio,
+.invitados-page .speaker-bio,
+body.invitados-page .speaker-info-horizontal .speaker-bio,
+.invitados-page .speaker-info-horizontal .speaker-bio,
+body.invitados-page .speaker-card-horizontal .speaker-info-horizontal .speaker-bio,
+.invitados-page .speaker-card-horizontal .speaker-info-horizontal .speaker-bio,
+html body.invitados-page .speaker-info-horizontal .speaker-bio,
+html body.invitados-page .speaker-card-horizontal .speaker-info-horizontal .speaker-bio {
+  text-align: justify !important;
+}
 
 /* Links del team */
 .team-links{ display: flex !important; gap: 1rem; justify-content: center; margin-top: 1rem; align-items: center; }
@@ -1214,9 +1278,11 @@ body.index-page-body .navbar .bi, body.index-page-body .navbar .fa, body.index-p
 /* En pantallas pequeñas (cuando se muestra el menú hamburguesa), 
    hacer el navbar sólido para mejor legibilidad */
 @media (max-width: 991.98px) {
+  /* Navbar sólido en todas las páginas en mobile */
   .navbar {
     background: var(--white) !important; /* Fondo sólido blanco */
     box-shadow: 0 2px 8px rgba(0,0,0,0.1) !important; /* Sombra para separación */
+    backdrop-filter: none !important; /* Eliminar cualquier filtro de transparencia */
   }
   
   /* Asegurar que los textos sean oscuros en pantallas pequeñas */
@@ -1228,21 +1294,110 @@ body.index-page-body .navbar .bi, body.index-page-body .navbar .fa, body.index-p
     color: rgba(0,0,0,0.9) !important;
   }
   
-  /* Incluso en index-page-body, hacer sólido en mobile */
+  /* Incluso en index-page-body, hacer sólido en mobile con letras negras */
+  /* Aumentar especificidad para sobrescribir todos los estilos de index */
+  body.index-page-body .navbar,
+  html body.index-page-body .navbar,
   .index-page-body .navbar {
     background: var(--white) !important;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1) !important;
+    backdrop-filter: none !important;
   }
   
+  /* Letras negras en mobile para index */
+  body.index-page-body .navbar-nav .nav-link,
+  html body.index-page-body .navbar-nav .nav-link,
+  body.index-page-body nav.navbar .navbar-nav .nav-link,
+  html body.index-page-body nav.navbar .navbar-nav .nav-link,
   .index-page-body .navbar-nav .nav-link {
     color: rgba(0,0,0,0.88) !important;
   }
   
+  /* Hover y active también negros en mobile para index */
+  body.index-page-body .navbar-nav .nav-link:hover,
+  html body.index-page-body .navbar-nav .nav-link:hover,
+  body.index-page-body nav.navbar .navbar-nav .nav-link:hover,
+  html body.index-page-body nav.navbar .navbar-nav .nav-link:hover,
+  body.index-page-body .navbar-nav .nav-link.active,
+  html body.index-page-body .navbar-nav .nav-link.active,
+  body.index-page-body nav.navbar .navbar-nav .nav-link.active,
+  html body.index-page-body nav.navbar .navbar-nav .nav-link.active {
+    color: rgba(0,0,0,0.95) !important;
+  }
+  
+  /* Iconos negros en mobile para index */
+  body.index-page-body .navbar .bi, 
+  body.index-page-body .navbar .fa, 
+  body.index-page-body .navbar i, 
+  body.index-page-body .navbar svg,
+  html body.index-page-body .navbar .bi,
+  html body.index-page-body .navbar .fa,
+  html body.index-page-body .navbar i,
+  html body.index-page-body .navbar svg,
+  body.index-page-body nav.navbar .bi,
+  body.index-page-body nav.navbar .fa,
+  body.index-page-body nav.navbar i,
+  body.index-page-body nav.navbar svg,
+  html body.index-page-body nav.navbar .bi,
+  html body.index-page-body nav.navbar .fa,
+  html body.index-page-body nav.navbar i,
+  html body.index-page-body nav.navbar svg,
   .index-page-body .navbar .bi, 
   .index-page-body .navbar .fa, 
   .index-page-body .navbar i, 
   .index-page-body .navbar svg {
     color: rgba(0,0,0,0.9) !important;
+  }
+  
+  /* Menú hamburguesa blanco en index mobile (fondo blanco, ícono blanco) */
+  body.index-page-body .navbar-toggler,
+  html body.index-page-body .navbar-toggler {
+    border-color: rgba(255,255,255,0.5) !important;
+  }
+  
+  body.index-page-body .navbar-toggler-icon,
+  html body.index-page-body .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.95)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+  }
+  
+  /* Ícono de búsqueda blanco en index mobile */
+  body.index-page-body #quarto-search,
+  html body.index-page-body #quarto-search,
+  body.index-page-body .navbar #quarto-search,
+  html body.index-page-body .navbar #quarto-search,
+  body.index-page-body .navbar .quarto-search-btn,
+  html body.index-page-body .navbar .quarto-search-btn,
+  body.index-page-body .navbar button[aria-label*="Search"],
+  html body.index-page-body .navbar button[aria-label*="Search"],
+  body.index-page-body .navbar a[aria-label*="Search"],
+  html body.index-page-body .navbar a[aria-label*="Search"],
+  body.index-page-body .navbar .bi-search,
+  html body.index-page-body .navbar .bi-search,
+  body.index-page-body .navbar .fa-search,
+  html body.index-page-body .navbar .fa-search {
+    color: rgba(255,255,255,0.95) !important;
+    fill: rgba(255,255,255,0.95) !important;
+  }
+  
+  /* SVG de búsqueda blanco */
+  body.index-page-body #quarto-search svg,
+  html body.index-page-body #quarto-search svg,
+  body.index-page-body .navbar #quarto-search svg,
+  html body.index-page-body .navbar #quarto-search svg,
+  body.index-page-body .navbar .quarto-search-btn svg,
+  html body.index-page-body .navbar .quarto-search-btn svg,
+  body.index-page-body .navbar button[aria-label*="Search"] svg,
+  html body.index-page-body .navbar button[aria-label*="Search"] svg,
+  body.index-page-body .navbar a[aria-label*="Search"] svg,
+  html body.index-page-body .navbar a[aria-label*="Search"] svg,
+  body.index-page-body #quarto-search .bi,
+  html body.index-page-body #quarto-search .bi,
+  body.index-page-body #quarto-search .fa,
+  html body.index-page-body #quarto-search .fa,
+  body.index-page-body #quarto-search i,
+  html body.index-page-body #quarto-search i {
+    color: rgba(255,255,255,0.95) !important;
+    fill: rgba(255,255,255,0.95) !important;
   }
   
   /* Menú hamburguesa oscuro en mobile */
@@ -1252,6 +1407,15 @@ body.index-page-body .navbar .bi, body.index-page-body .navbar .fa, body.index-p
   
   .navbar-toggler-icon {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0, 0, 0, 0.9)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+  }
+  
+  /* Asegurar que el menú colapsado también tenga fondo sólido */
+  .navbar-collapse {
+    background: var(--white) !important;
+    margin-top: 0.5rem;
+    padding: 1rem;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   }
 }
 
@@ -1996,9 +2160,12 @@ section#equipo-organizador .team-grid-3{
   gap: 2rem !important;
   align-items: start !important;
   justify-items: center !important;
-  margin: 2rem 0 !important;
+  margin: 2rem auto !important; /* Centrar el grid completo */
   width: 100% !important;
   max-width: 100% !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  box-sizing: border-box !important;
 }
 
 body.team-page .team-grid-3 .speaker-card,
@@ -2008,6 +2175,9 @@ section#equipo-organizador .team-grid-3 .speaker-card{
   width: 100% !important;
   max-width: 100% !important;
   box-sizing: border-box !important;
+  margin: 0 auto !important; /* Centrar cada tarjeta */
+  justify-self: center !important; /* Centrar en el grid */
+  overflow: visible !important; /* Permitir que el contenido sea visible */
 }
 
 body.team-page .team-grid-2,
@@ -2019,9 +2189,12 @@ section#equipo-organizador .team-grid-2{
   gap: 2rem !important;
   align-items: start !important;
   justify-items: center !important;
-  margin: 2rem 0 !important;
+  margin: 2rem auto !important; /* Centrar el grid completo */
   width: 100% !important;
   max-width: 100% !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  box-sizing: border-box !important;
 }
 
 body.team-page .team-grid-2 .speaker-card,
@@ -2031,13 +2204,19 @@ section#equipo-organizador .team-grid-2 .speaker-card{
   width: 100% !important;
   max-width: 100% !important;
   box-sizing: border-box !important;
+  margin: 0 auto !important; /* Centrar cada tarjeta */
+  justify-self: center !important; /* Centrar en el grid */
+  overflow: visible !important; /* Permitir que el contenido sea visible */
 }
 
 /* Responsive para equipo - misma lógica que instituciones */
 @media (max-width: 1200px) {
   body.team-page .team-grid-3,
-  .team-page .team-grid-3{
+  .team-page .team-grid-3,
+  section.level2 .team-grid-3,
+  section#equipo-organizador .team-grid-3{
     grid-template-columns: repeat(2, 1fr) !important; /* 2 columnas en pantallas medianas */
+    justify-items: center !important; /* Centrar elementos */
   }
 }
 
@@ -2045,9 +2224,18 @@ section#equipo-organizador .team-grid-2 .speaker-card{
   body.team-page .team-grid-3,
   .team-page .team-grid-3,
   body.team-page .team-grid-2,
-  .team-page .team-grid-2{
+  .team-page .team-grid-2,
+  section.level2 .team-grid-3,
+  section.level2 .team-grid-2,
+  section#equipo-organizador .team-grid-3,
+  section#equipo-organizador .team-grid-2{
     grid-template-columns: 1fr !important; /* 1 columna en móviles */
     gap: 1.5rem !important;
+    justify-items: center !important; /* Centrar elementos */
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
   }
 }
 
@@ -2153,6 +2341,8 @@ section.team-page .content-section .container{
   padding-right: var(--body-gutter) !important; 
   margin-left: auto !important;
   margin-right: auto !important;
+  box-sizing: border-box !important; /* Incluir padding en el ancho */
+  overflow-x: hidden !important; /* Evitar scroll horizontal */
 }
 
 /* Override Bootstrap container max-width at all breakpoints for team-page */
@@ -2839,4 +3029,17 @@ body.program-page nav#quarto-sidebar,
   position: sticky !important;
   top: var(--navbar-h) !important;
   align-self: start !important;
+}
+
+/* ===== REGLA FINAL PARA JUSTIFICAR TEXTO EN INVITADOS ===== */
+/* Máxima especificidad al final del archivo para asegurar que se aplique */
+body.invitados-page .speaker-info-horizontal .speaker-bio,
+body.invitados-page.team-page .speaker-info-horizontal .speaker-bio,
+body.team-page.invitados-page .speaker-info-horizontal .speaker-bio,
+body.invitados-page .speaker-card-horizontal .speaker-info-horizontal .speaker-bio,
+body.invitados-page.team-page .speaker-card-horizontal .speaker-info-horizontal .speaker-bio,
+html body.invitados-page .speaker-info-horizontal .speaker-bio,
+html body.invitados-page.team-page .speaker-info-horizontal .speaker-bio,
+html body.team-page.invitados-page .speaker-info-horizontal .speaker-bio {
+  text-align: justify !important;
 }

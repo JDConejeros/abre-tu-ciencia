@@ -36,7 +36,7 @@ format:
 
 ![](images/lugar/gob.jpeg){.location-image}
 
-**Sala por definir.**
+**Edificio Interdisciplinario: Sala Magíster, 3º Piso.**
 :::
 
 ::: {.column}
@@ -44,7 +44,7 @@ format:
 
 ![](images/lugar/college.jpg){.location-image}
 
-**Sala por definir.**
+**Sala San Andrés, 2º Piso.**
 :::
 :::
 

@@ -1,1 +1,0 @@
-Sitemap: https://atc26.netlify.app/sitemap.xml
