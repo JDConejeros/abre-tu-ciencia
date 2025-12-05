@@ -9,6 +9,8 @@ website:
   open-graph: true
   cookie-consent: false
   title: "Abre tu Ciencia"
+  image: "images/atc.png"
+  site-url: "https://atc26.netlify.app/"
   search: 
     location: navbar
     type: overlay
