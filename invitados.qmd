@@ -44,17 +44,17 @@ Además de su aporte académico, Edward Miguel ha sido un impulsor central del m
 
 ::: {.speaker-card-horizontal}
 ::: {.speaker-photo}
-![](images/invitados/nacy.png){.img-circle}
+![](images/invitados/squiroz.jpeg){.img-circle}
 :::
 
 ::: {.speaker-info-horizontal}
-<div class="speaker-name">Nancy Pérez</div>
-<div class="speaker-role">Directora Ejecutiva del Instituto de Tecnologías Limpias (ITL). <br> Integrante del Directorio de Enami. Especialista en innovación. </div>
-<div class="speaker-bio">Ingeniera Civil en Informática y Magíster en Innovación, Tecnología y Emprendimiento, con amplia experiencia en transformación digital, transferencia tecnológica y desarrollo de soluciones para los sectores minero y energético. Actualmente se desempeña como Directora Ejecutiva del Instituto de Tecnologías Limpias (ITL) y es miembro del directorio de Enami, desde donde impulsa iniciativas de innovación sostenible y articulación público-privada. Su trabajo promueve la adopción de prácticas abiertas en proyectos de I+D, fomentando la disponibilidad de datos, la transparencia en la gestión tecnológica y la colaboración entre industria, academia y Estado para acelerar procesos de innovación con impacto social y ambiental. </div>
+<div class="speaker-name">Soledad Quiroz Valenzuela</div>
+<div class="speaker-role">Directora de gestión institucional y vinculación. <br> Data Observatory. </div>
+<div class="speaker-bio">PhD en Bioquímica y Biología Molecular, con un máster en Políticas Públicas, y actualmente dirige Relaciones Institucionales y Asuntos Públicos de la Data Observatory Foundation. Desde 2021 ocupa el cargo de Vicepresidenta de Políticas Públicas de la INGSA (International Network for Government Science Advice), lo que refleja su compromiso en fomentar el uso de evidencia científica en la toma de decisiones públicas. Su trabajo combina una formación científica con un enfoque en diplomacia de la ciencia, políticas tecnocientíficas y gobernanza del conocimiento, promoviendo activamente la ciencia abierta, la transparencia en datos e investigaciónn, favoreciendo espacios de colaboración entre ciencia, sociedad y Estado en América Latina. </div>
 
 ::: {.team-links}
-<a href="mailto:nancy.perez.o@gmail.com" class="team-link" title="Email"><i class="fas fa-envelope"></i></a>
-<a href="https://www.linkedin.com/in/nancy-p%C3%A9rez-ojeda/" class="team-link" target="_blank" title="Linkedin"><i class="fab fa-linkedin"></i></a>
+<a href="mailto:soledad.quiroz@dataobservatory.net" class="team-link" title="Email"><i class="fas fa-envelope"></i></a>
+<a href="https://www.linkedin.com/in/squiroz/" class="team-link" target="_blank" title="Linkedin"><i class="fab fa-linkedin"></i></a>
 <a href="https://github.com/invitado" class="team-link" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
 :::
 :::
@@ -241,7 +241,7 @@ Además de su aporte académico, Edward Miguel ha sido un impulsor central del m
 
 ::: {.speaker-card-horizontal}
 ::: {.speaker-photo}
-![](images/invitados/Pchandia.jpg){.img-circle}
+![](images/invitados/Pchandia.jpeg){.img-circle}
 :::
 
 ::: {.speaker-info-horizontal}
