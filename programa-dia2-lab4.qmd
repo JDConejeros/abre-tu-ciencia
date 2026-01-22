@@ -28,7 +28,7 @@ format:
 
 ::: {.speaker-info-horizontal}
 <div class="speaker-name">Riva Quiroga</div>
-<div class="speaker-role"> Research Fellow en OLS. <br> Chair LatinR. </div>
+<div class="speaker-role"> Research Fellow en OLS</div>
 
 ::: {.team-links}
 <a href="mailto:riva.quiroga@uc.cl" class="team-link" title="Email"><i class="fas fa-envelope"></i></a>
@@ -41,6 +41,8 @@ format:
 **Fecha:** Viernes 23 de Enero, 2026 - **Horario:** 02:00 pm - 03:00 pm
 
 Este laboratorio práctico ilustra el uso de Git y GitHub como herramientas clave para el desarrollo de proyectos abiertos y reproducibles. Sus participantes aprenderán a organizar repositorios para compartir código o datos y documentar adecuadamente su trabajo. Además, se revisará cómo convertir estos repositorios en outputs de investigación citables mediante buenas prácticas de publicación, licenciamiento y vinculación con identificadores persistentes. 
+
+**Preparación**: Para poder seguir las actividades de la sesión es necesario tener una cuenta en [GitHub](https://github.com/), una cuenta en [Zenodo](https://zenodo.org/) y datos o código que quieras convertir en un objeto citable (es decir, que tenga su propio DOI). El código puede ser un script, un _notebook_, etc. 
 
 *Nota*: El laboratorio supone un conocimiento básico de Git y GitHub (por ejemplo, saber cómo hacer _push_ y _pull_ en un repositorio propio).
 
