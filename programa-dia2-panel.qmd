@@ -43,12 +43,12 @@ Este panel reúne a investigadoras con experiencia práctica en la implementaci�
 :::
 </div>
 
-<a href="https://drive.google.com/file/d/1OswbxJtLlaTkFQfk_YaHLd4AgpANKDt9/view?usp=sharing" class="material-link" target="_blank"><i class="fas fa-file-powerpoint"></i> Descarga la presentación</a>
+<a href="https://drive.google.com/file/d/1Bbfw5DkkF9XdgKlzLiqhEL6pEgIMt9BF/view?usp=sharing" class="material-link" target="_blank"><i class="fas fa-file-powerpoint"></i> Descarga la presentación</a>
 
 <div style="margin: 1rem 0;">
 <div style="position: relative; width: 100%; max-width: 1200px; margin: 0 auto; height: 700px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); overflow: hidden; background: #f5f5f5;">
-<iframe src="https://drive.google.com/file/d/1OswbxJtLlaTkFQfk_YaHLd4AgpANKDt9/preview?usp=sharing&rm=minimal" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none; zoom: 125%;" allowfullscreen>
-  <p>Tu navegador no soporta la visualización de PDFs embebidos. Puedes <a href="https://drive.google.com/file/d/1OswbxJtLlaTkFQfk_YaHLd4AgpANKDt9/view?usp=sharing" target="_blank">ver la presentación aquí</a>.</p>
+<iframe src="https://drive.google.com/file/d/1Bbfw5DkkF9XdgKlzLiqhEL6pEgIMt9BF/preview?usp=sharing&rm=minimal" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none; zoom: 125%;" allowfullscreen>
+  <p>Tu navegador no soporta la visualización de PDFs embebidos. Puedes <a href="https://drive.google.com/file/d/1Bbfw5DkkF9XdgKlzLiqhEL6pEgIMt9BF/view?usp=sharing" target="_blank">ver la presentación aquí</a>.</p>
 </iframe>
 </div>
 <p style="margin-top: 0.5rem; font-size: 0.85rem; color: var(--text-light); text-align: center;">
