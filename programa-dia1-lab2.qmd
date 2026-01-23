@@ -58,5 +58,7 @@ Este laboratorio práctico enseña a construir flujos de trabajo reproducibles u
 </p>
 </div>
 
+Puedes acceder directamente en: <https://jdconejeros.github.io/wks_targets_atc26/Pres_Targets_RepWFL.html#/>
+
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
