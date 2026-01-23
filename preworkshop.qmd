@@ -143,6 +143,7 @@ Esta es una guía general de estudio con los aspectos más importantes. Trata de
 </p>
 </div>
 
+Puedes acceder directamente en: <https://jdconejeros.github.io/intro_positron_atc26/>
 
 ### Más para seguir aprendiendo...
 

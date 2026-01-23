@@ -43,7 +43,7 @@ Esta conferencia aborda estrategias para el diseño de protocolos de investigaci
 :::
 </div>
 
-<a href="https://jdleongomez.github.io/protocolos_codigo_y_datos_abiertos/#/title-slide" class="material-link" target="_blank"><i class="fas fa-file-powerpoint"></i> Descarga la presentación</a>
+<a href="https://drive.google.com/file/d/1Tq-F63YxZtRd6BjwytCFG8pcy0XnT6ww/view?usp=sharing" class="material-link" target="_blank"><i class="fas fa-file-powerpoint"></i> Descarga la presentación</a>
 <a href="https://github.com/JDLeongomez/protocolos_codigo_y_datos_abiertos" class="material-link" target="_blank"><i class="fab fa-github"></i> Repositorio</a>
 
 <br>
@@ -58,6 +58,8 @@ Esta conferencia aborda estrategias para el diseño de protocolos de investigaci
   <i class="fas fa-info-circle"></i> Usa las flechas del teclado o los controles del visor para navegar entre slides.
 </p>
 </div>
+
+Puedes acceder directamente en: <https://jdleongomez.github.io/protocolos_codigo_y_datos_abiertos/>
 
 <br>
 
