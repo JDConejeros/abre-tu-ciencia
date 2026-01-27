@@ -37,6 +37,8 @@ website:
         text: Contenido
       - href: codigo-conducta.qmd
         text: Código de Conducta
+      - href: fotos-evento.qmd
+        text: Galeria
     right:
       - icon: github
         href: https://github.com/JDConejeros/abre-tu-ciencia

@@ -1,0 +1,261 @@
+---
+title: "Galeria"
+format:
+  html:
+    page-layout: full
+    toc: false
+    theme:
+      - default
+      - custom.scss
+---
+
+<br><br><br>
+
+<br>
+
+<div style="text-align: center; margin-bottom: 2rem;">
+  <p style="font-size: 0.9rem; color: #999; margin-top: 0.5rem;">
+    <i class="fas fa-info-circle"></i> 
+    Haz clic en cualquier foto para verla en tamaño completo
+  </p>
+</div>
+
+<!-- Carrusel Principal -->
+<div id="fotosCarousel" class="carousel slide" data-bs-ride="carousel" style="max-width: 1200px; margin: 0 auto 3rem; display: none;">
+  <div class="carousel-indicators" id="carouselIndicators">
+    <!-- Los indicadores se generarán dinámicamente -->
+  </div>
+  <div class="carousel-inner" id="carouselInner" style="border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+    <!-- Los items del carrusel se generarán dinámicamente -->
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#fotosCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Anterior</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#fotosCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Siguiente</span>
+  </button>
+</div>
+
+<!-- Galería de Fotos -->
+<div style="max-width: 1400px; margin: 0 auto;">
+  <div class="row g-3" id="fotosGallery" style="margin: 0;">
+    <!-- Las imágenes se cargarán dinámicamente aquí -->
+  </div>
+</div>
+
+<div style="text-align: center; padding: 1rem; border-radius: 12px;">
+  <a href="https://drive.google.com/drive/folders/1jyf87jbgPrQc56ZCY1mCCgrfWjAG7H1j?usp=sharing" 
+     target="_blank" 
+     class="btn btn-primary" 
+     style="text-decoration: none;">
+    <i class="fab fa-google-drive" style="margin-right: 0.5rem;"></i>
+    Abrir en Google Drive
+  </a>
+</div>
+
+<style>
+/* Estilos para la galería */
+#fotosGallery .col-md-3,
+#fotosGallery .col-sm-6 {
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#fotosGallery .col-md-3:hover,
+#fotosGallery .col-sm-6:hover {
+  transform: translateY(-5px);
+}
+
+#fotosGallery img {
+  width: 150%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+#fotosGallery img:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+/* Modal para vista ampliada */
+.foto-modal {
+  display: none;
+  position: fixed;
+  z-index: 2000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.9);
+  overflow: auto;
+}
+
+.foto-modal-content {
+  margin: auto;
+  display: block;
+  max-width: 90%;
+  max-height: 90%;
+  margin-top: 5%;
+}
+
+.foto-modal-close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.foto-modal-close:hover {
+  color: #bbb;
+}
+</style>
+
+<script>
+// Folder ID de Google Drive
+const folderId = '1jyf87jbgPrQc56ZCY1mCCgrfWjAG7H1j';
+
+// IDs de las fotos del Google Drive
+// Para obtener los IDs manualmente:
+// 1. Abre cada foto en Google Drive
+// 2. Copia el ID de la URL (formato: https://drive.google.com/file/d/[ID_AQUI]/view)
+// 3. Agrega el ID al array fotoIds
+const fotoIds = [
+  // Agrega aquí los IDs de las imágenes
+  // Ejemplo basado en los nombres de archivo vistos:
+  // '1ABC123...', // ATC-26-01.jpg
+  // '1DEF456...', // ATC-26-02.jpg
+  // etc.
+];
+
+// Función para intentar obtener los IDs usando el folder
+async function obtenerIdsDelFolder() {
+  // Nota: Esto requiere autenticación con Google Drive API
+  // Por ahora, usa los IDs manuales o el iframe embed
+  return fotoIds;
+}
+
+// Función para cargar las fotos en la galería
+function cargarGaleria() {
+  const gallery = document.getElementById('fotosGallery');
+  
+  if (fotoIds.length === 0) {
+    // Si no hay IDs, mostrar un iframe con el folder de Google Drive
+    gallery.innerHTML = `
+      <div class="col-12" style="text-align: center; padding: 2rem;">
+        <div style="max-width: 100%; margin: 0 auto;">
+          <iframe src="https://drive.google.com/embeddedfolderview?id=${folderId}#grid" 
+                  width="100%" 
+                  height="800" 
+                  frameborder="0" 
+                  style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+          </iframe>
+        </div>
+      </div>
+    `;
+    return;
+  }
+  
+  fotoIds.forEach((id, index) => {
+    const col = document.createElement('div');
+    col.className = 'col-md-3 col-sm-6';
+    col.innerHTML = `
+      <img src="https://drive.google.com/uc?export=view&id=${id}" 
+           alt="Foto del evento ${index + 1}" 
+           onclick="abrirFoto('${id}')"
+           loading="lazy"
+           onerror="this.src='https://via.placeholder.com/400x300?text=Error+cargando+imagen'">
+    `;
+    gallery.appendChild(col);
+  });
+}
+
+// Función para abrir foto en modal
+function abrirFoto(id) {
+  const modal = document.createElement('div');
+  modal.className = 'foto-modal';
+  modal.id = 'fotoModal';
+  modal.innerHTML = `
+    <span class="foto-modal-close" onclick="cerrarFoto()">&times;</span>
+    <img class="foto-modal-content" src="https://drive.google.com/uc?export=view&id=${id}" alt="Foto ampliada">
+  `;
+  document.body.appendChild(modal);
+  modal.style.display = 'block';
+}
+
+// Función para cerrar modal
+function cerrarFoto() {
+  const modal = document.getElementById('fotoModal');
+  if (modal) {
+    modal.style.display = 'none';
+    modal.remove();
+  }
+}
+
+// Cerrar modal al hacer clic fuera de la imagen
+window.onclick = function(event) {
+  const modal = document.getElementById('fotoModal');
+  if (event.target === modal) {
+    cerrarFoto();
+  }
+}
+
+// Función para cargar el carrusel
+function cargarCarrusel() {
+  const carousel = document.getElementById('fotosCarousel');
+  const indicators = document.getElementById('carouselIndicators');
+  const inner = document.getElementById('carouselInner');
+  
+  if (fotoIds.length === 0) {
+    carousel.style.display = 'none';
+    return;
+  }
+  
+  // Mostrar solo las primeras 5 fotos en el carrusel
+  const fotosCarrusel = fotoIds.slice(0, 5);
+  
+  // Generar indicadores
+  indicators.innerHTML = '';
+  fotosCarrusel.forEach((_, index) => {
+    const button = document.createElement('button');
+    button.type = 'button';
+    button.setAttribute('data-bs-target', '#fotosCarousel');
+    button.setAttribute('data-bs-slide-to', index.toString());
+    button.setAttribute('aria-label', `Foto ${index + 1}`);
+    if (index === 0) {
+      button.className = 'active';
+      button.setAttribute('aria-current', 'true');
+    }
+    indicators.appendChild(button);
+  });
+  
+  // Generar items del carrusel
+  inner.innerHTML = '';
+  fotosCarrusel.forEach((id, index) => {
+    const item = document.createElement('div');
+    item.className = index === 0 ? 'carousel-item active' : 'carousel-item';
+    item.innerHTML = `
+      <img src="https://drive.google.com/uc?export=view&id=${id}" 
+           class="d-block w-100" 
+           alt="Foto del evento ${index + 1}" 
+           style="height: 600px; object-fit: cover;"
+           onerror="this.src='https://via.placeholder.com/1200x600?text=Error+cargando+imagen'">
+    `;
+    inner.appendChild(item);
+  });
+  
+  carousel.style.display = 'block';
+}
+
+// Cargar galería y carrusel al cargar la página
+document.addEventListener('DOMContentLoaded', function() {
+  cargarGaleria();
+  cargarCarrusel();
+});
+</script>
