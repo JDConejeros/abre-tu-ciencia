@@ -43,6 +43,9 @@ Este laboratorio práctico introduce a los participantes en el uso de agentes de
 
 <a href="https://github.com/JDConejeros/wks_iaca_atc26/blob/main/Pres_IAgentes/Pres_IAgentes_R.pdf" class="material-link" target="_blank"><i class="fas fa-file-powerpoint"></i> Descarga la presentación</a>
 <a href="https://github.com/JDConejeros/wks_iaca_atc26" class="material-link" target="_blank"><i class="fab fa-github"></i> Repositorio</a>
+<a href="https://positron.posit.co/assistant" class="material-link" target="_blank"><i class="fas fa-robot"></i> Revisa el trabajo con agentes en Positron</a>
+<a href="https://cursor.com/" class="material-link" target="_blank"><i class="fas fa-code"></i> Descargar Cursor</a>
+<a href="https://lmstudio.ai/" class="material-link" target="_blank"><i class="fas fa-desktop"></i> Descargar LM Studio</a>
 
 
 <div style="margin: 2rem 0;">
