@@ -93,7 +93,7 @@ format:
 
 ::: {.speaker-info}
 <div class="speaker-name">Eduardo Undurraga</div>
-<div class="speaker-role">Profesor Asociado y Director de Investigación en la Escuela de Gobierno UC</div>
+<div class="speaker-role">Profesor Asociado y Director de Investigación en la Escuela de Gobierno UC; Director SENTINET-CIN250062. </div>
 <div class="speaker-bio">Su investigación se centra en: (i) los factores sociales y culturales de la salud, (ii) la dinámica y economía de las enfermedades infecciosas, y (iii) la evaluación de programas e intervenciones en salud pública.</div>
 
 ::: {.team-links}
@@ -197,8 +197,14 @@ format:
 
 :::
 
-**SENTINET**: Surveillance, Epidemiology, and New Technologies for Infectious Emerging Threats. Agencia Nacional de Investigación y Desarrollo ANID, Centros de Investigación y Desarrollo de Excelencia de Interés Nacional [Grant CIN250062 SENTINET].
-
+::: {.institution-card}
+::: {.institution-photo}
+<a href="https://sentinetchile.cl/" target="_blank" class="institution-link">
+![SENTINET](images/logos/sentinet.png)
+Surveillance, Epidemiology, and New Technologies for Infectious Emerging Threats. Agencia Nacional de Investigación y Desarrollo ANID, Centros de Investigación y Desarrollo de Excelencia de Interés Nacional [Grant CIN250062 SENTINET].
+</a>
+:::
+:::
 
 ## Financiamiento {#financiamiento}
 
